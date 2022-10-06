@@ -2,7 +2,8 @@
 @media (max-width: 880px) {
 	.site-content > .wp-block-columns {
 		&:not(.is-not-stacked-on-mobile) {
-			flex-wrap: wrap;
+			flex-wrap: wrap !important;
+			gap: 0;
 
 			> .wp-block-column {
 				flex-basis: 100% !important;
