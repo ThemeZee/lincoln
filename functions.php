@@ -73,7 +73,7 @@ add_action( 'enqueue_block_editor_assets', 'lincoln_theme_fonts', 1 );
  */
 function lincoln_get_fonts_url() {
 	$font_families = array(
-		'Roboto:400,400italic,700,700italic',
+		'Roboto:400,400italic,500,500italic,700,700italic',
 	);
 
 	$query_args = array(

@@ -1,5 +1,11 @@
 /* Button Block */
+.wp-element-button,
 .wp-block-button__link {
-	padding: calc(0.6rem + 2px) calc(1.2rem + 2px);
-	transition: transform 0.1s ease;
+	transition: background-color 0.25s ease-in-out;
+}
+
+.wp-block-button.is-style-outline > .wp-block-button__link,
+.wp-block-button .wp-block-button__link.is-style-outline {
+	border: 3px solid;
+	padding: 0.4rem 1rem;
 }

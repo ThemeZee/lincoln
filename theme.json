@@ -206,18 +206,11 @@
 			"core/button": {
 				"border": {
 					"radius": "0"
-				},
-				"color": {
-					"background": "var(--wp--preset--color--primary)",
-					"text": "var(--wp--preset--color--white)"
-				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				},
-				":hover": {
-					"color": {
-						"background": "var(--wp--preset--color--secondary)"
-					}
+				}
+			},
+			"core/buttons": {
+				"spacing": {
+					"blockGap": "1rem"
 				}
 			},
 			"core/categories": {
@@ -242,6 +235,32 @@
 			"core/post-excerpt": {
 				"typography": {
 					"fontSize": "clamp(16px, calc(1rem + 0.16vw), 19px)"
+				},
+				"elements": {
+                    "link": {
+						"spacing": {
+							"padding": {
+								"top": "calc(0.4rem + 3px)",
+								"bottom": "calc(0.4rem + 3px)",
+								"left": "calc(1rem + 3px)",
+								"right": "calc(1rem + 3px)"
+							}
+						},
+						"color": {
+							"background": "var(--wp--preset--color--primary)",
+							"text": "var(--wp--preset--color--white)"
+						},
+						"typography": {
+							"fontSize": "var(--wp--preset--font-size--small)",
+							"fontWeight": "500",
+							"textDecoration": "none"
+						},
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--secondary)"
+							}
+						}
+					}
 				}
 			},
 			"core/post-title": {
@@ -255,7 +274,7 @@
 						},
 						":hover": {
 							"color": {
-								"text": "var(--wp--preset--color--primary)"
+								"text": "var(--wp--preset--color--black)"
 							}
 						}
 					}
@@ -267,6 +286,29 @@
 			"text": "#202020"
 		},
 		"elements": {
+			"button": {
+				"spacing": {
+					"padding": {
+						"top": "calc(0.4rem + 3px)",
+						"bottom": "calc(0.4rem + 3px)",
+						"left": "calc(1rem + 3px)",
+						"right": "calc(1rem + 3px)"
+					}
+				},
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--white)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontWeight": "500"
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--secondary)"
+					}
+				}
+			},
 			"heading": {
 				"spacing": {
 					"margin": {

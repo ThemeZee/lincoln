@@ -91,16 +91,16 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 	margin: 0;
-	padding: calc(0.6rem + 2px) calc(1.2rem + 2px);
+	padding: calc(0.4rem + 3px) calc(1rem + 3px);
 	border: none;
 	color: var(--wp--preset--color--white);
 	background-color: var(--wp--preset--color--primary);
 	text-decoration: none;
 	font: inherit;
-	font-weight: bold;
+	font-weight: 500;
 	font-size: var(--wp--preset--font-size--small);
 	line-height: inherit;
-	transition: transform 0.1s ease;
+	transition: background-color 0.25s ease-in-out;
 }
 
 input[type="button"]:hover,
@@ -305,9 +305,15 @@ Remove CSS when 6.0 is released. */
 --------------------------------------------------------------*/
 
 /* Button Block */
+.wp-element-button,
 .wp-block-button__link {
-	padding: calc(0.6rem + 2px) calc(1.2rem + 2px);
-	transition: transform 0.1s ease;
+	transition: background-color 0.25s ease-in-out;
+}
+
+.wp-block-button.is-style-outline > .wp-block-button__link,
+.wp-block-button .wp-block-button__link.is-style-outline {
+	border: 3px solid;
+	padding: 0.4rem 1rem;
 }
 
 /* Group Block */
@@ -348,6 +354,11 @@ h6.has-background {
 /* Paragraph Block */
 p.has-background {
 	padding: 1.25rem 1.5rem;
+}
+
+/* Post Excerpt Block */
+.wp-block-post-excerpt__more-link {
+	transition: background-color 0.25s ease-in-out;
 }
 
 /* Pullquote Block */
