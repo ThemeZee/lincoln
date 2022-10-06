@@ -2,14 +2,16 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 	margin: 0;
-	padding: calc(0.75rem + 2px) calc(1.25rem + 2px);
+	padding: calc(0.6rem + 2px) calc(1.2rem + 2px);
 	border: none;
 	color: var(--wp--preset--color--white);
 	background-color: var(--wp--preset--color--primary);
 	text-decoration: none;
+	font: inherit;
 	font-weight: bold;
-	font-size: var(--wp--preset--font-size--normal);
+	font-size: var(--wp--preset--font-size--small);
 	line-height: inherit;
+	transition: transform 0.1s ease;
 }
 
 input[type="button"]:hover,
@@ -23,6 +25,7 @@ input[type="reset"]:active,
 input[type="submit"]:active {
 	color: var(--wp--preset--color--white);
 	background-color: var(--wp--preset--color--secondary);
+	cursor: pointer;
 }
 
 input[type="text"],
@@ -31,11 +34,12 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-	padding: 0.3em 0.6em;
+	padding: 0.25em 0.5em;
 	max-width: 100%;
-	border: 1px solid #ddd;
-	color: #777;
+	border: 1px solid currentColor;
 	background: none;
+	opacity: 0.65;
+	font: inherit;
 }
 
 input[type="text"]:focus,
@@ -44,8 +48,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 input[type="search"]:focus,
 textarea:focus {
-	border: 1px solid #aaa;
-	color: #111;
+	opacity: 1;
 	outline: none;
 }
 

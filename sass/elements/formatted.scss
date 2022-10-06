@@ -1,22 +1,20 @@
-dfn,
-cite,
-em,
-i {
-	font-style: italic;
+html {
+	box-sizing: border-box;
 }
 
-address {
-	margin-top: var(--wp--custom--spacing--elements);
-	margin-bottom: var(--wp--custom--spacing--elements);
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
 }
 
 pre {
 	overflow: auto;
-	margin-top: var(--wp--custom--spacing--elements);
-	margin-bottom: var(--wp--custom--spacing--elements);
-	padding: 1rem 1.25rem;
+	padding: 0.75rem 1rem;
 	max-width: 100%;
-	border: 1px solid #ddd;
+	background: rgba(0, 0, 0, 0.05);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
 	@include font-size(15);
 	font-family: Menlo, Consolas, monaco, monospace;
 }
@@ -27,18 +25,20 @@ tt,
 var {
 	@include font-size(15);
 	font-family: Menlo, Consolas, monaco, monospace;
-	border: none;
-	padding: 2px 5px;
+	background: rgba(0, 0, 0, 0.05);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1px 3px;
+	border-radius: 3px;
 }
 
 pre code {
 	background: none;
+	border: none;
 	padding: 0;
 }
 
 abbr,
 acronym {
-	border-bottom: 1px solid #ddd;
 	cursor: help;
 }
 

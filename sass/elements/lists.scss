@@ -1,7 +1,6 @@
 ul,
 ol {
-	margin: var(--wp--custom--spacing--elements) 0;
-	padding: 0 0 0 var(--wp--custom--spacing--elements);
+	padding: 0 0 0 1.25rem;
 }
 
 ul {
@@ -14,15 +13,5 @@ ol {
 
 li > ul,
 li > ol {
-	margin-top: 0.75rem;
-	margin-bottom: 0.75rem;
-	margin-left: var(--wp--custom--spacing--elements);
-}
-
-dt {
-	font-weight: bold;
-}
-
-dd {
-	margin: 0 0 var(--wp--custom--spacing--elements);
+	margin: 0.75rem 0;
 }

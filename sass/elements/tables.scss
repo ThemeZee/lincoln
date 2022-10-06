@@ -4,20 +4,24 @@ table {
 	table-layout: auto;
 	border-spacing: 0;
 	border-collapse: collapse;
+	border-color: rgba(0, 0, 0, 0.15);
 }
 
 thead {
-	border-bottom: 3px solid #ddd;
+	border-bottom: 3px solid;
+	border-color: inherit;
 }
 
 tfoot {
-	border-top: 3px solid #ddd;
+	border-top: 3px solid;
+	border-color: inherit;
 }
 
 th,
 td {
-	padding: 0.5rem 0.8rem;
-	border: 1px solid #ddd;
+	padding: 0.5rem 0.75rem;
+	border: 1px solid;
+	border-color: inherit;
 	word-break: normal;
 }
 

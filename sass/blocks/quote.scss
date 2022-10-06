@@ -1,32 +1,30 @@
 /* Quote Block */
 .wp-block-quote {
-	&.has-text-align-center:not(.is-style-large),
-	&.has-text-align-right:not(.is-style-large) {
+	&.has-text-align-right {
+		border-left: none;
+		border-right: 0.25rem solid currentColor;
 		padding-left: 0;
-		border-left: 0;
-	}
-
-	&.has-text-align-right:not(.is-style-large) {
 		padding-right: 1.5rem;
-		border-right: 5px solid #ddd;
 	}
 
-	&.is-style-large {
-		padding: 0;
+	&.has-text-align-center {
 		border: none;
-		@include font-size(28);
+		padding-left: 0;
+	}
 
-		p {
-			font-size: inherit;
-			font-style: inherit;
-			line-height: inherit;
+	&.is-style-plain {
+		border: none;
+	}
+
+	&.has-background {
+		padding: 1.25rem 1.5rem;
+
+		> *:first-child {
+			margin-top: 0;
 		}
 
-		cite,
-		footer,
-		&__citation {
-			text-align: inherit;
-			@include font-size(16);
+		> *:last-child {
+			margin-bottom: 0;
 		}
 	}
 }
