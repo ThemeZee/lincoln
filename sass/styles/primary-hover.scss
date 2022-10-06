@@ -1,0 +1,17 @@
+/* Primary Hover */
+.wp-block-social-links.is-style-primary-hover {
+	li.wp-social-link {
+		color: inherit;
+		background: none;
+		transition: color 0.25s ease-in-out;
+
+		&:hover {
+			transform: none;
+			color: var(--wp--preset--color--primary);
+		}
+
+		a {
+			padding: 0;
+		}
+	}
+}

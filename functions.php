@@ -175,6 +175,13 @@ function lincoln_register_block_styles() {
 		'style_handle' => 'lincoln-stylesheet',
 	) );
 
+	// Register Primary Hover block style.
+	register_block_style( 'core/social-links', array(
+		'name'         => 'primary-hover',
+		'label'        => esc_html__( 'Primary Hover', 'lincoln' ),
+		'style_handle' => 'lincoln-stylesheet',
+	) );
+
 	// Register Underlined Heading block style.
 	$underlined_heading_style = array(
 		'name'         => 'underlined-heading',
