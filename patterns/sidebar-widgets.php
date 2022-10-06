@@ -6,8 +6,8 @@
 */
 ?>
 
-<!-- wp:group {"style":{"border":{"style":"solid","width":"1px"},"spacing":{"padding":{"top":"2.0rem","right":"2.0rem","bottom":"2.0rem","left":"2.0rem"}}},"borderColor":"light-gray","className":"widget"} -->
-<div class="wp-block-group widget has-border-color has-light-gray-border-color" style="border-style:solid;border-width:1px;padding-top:2.0rem;padding-right:2.0rem;padding-bottom:2.0rem;padding-left:2.0rem">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"backgroundColor":"white","className":"widget"} -->
+<div class="wp-block-group widget has-white-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
 
 	<!-- wp:heading {"className":"is-style-underlined-heading","fontSize":"large"} -->
 	<h2 class="is-style-underlined-heading has-large-font-size"><?php _e( 'Categories', 'lincoln' ); ?></h2>
@@ -18,8 +18,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"border":{"style":"solid","width":"1px"},"spacing":{"padding":{"top":"2.0rem","right":"2.0rem","bottom":"2.0rem","left":"2.0rem"}}},"borderColor":"light-gray","className":"widget"} -->
-<div class="wp-block-group widget has-border-color has-light-gray-border-color" style="border-style:solid;border-width:1px;padding-top:2.0rem;padding-right:2.0rem;padding-bottom:2.0rem;padding-left:2.0rem">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"backgroundColor":"white","className":"widget"} -->
+<div class="wp-block-group widget has-white-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
 
 	<!-- wp:heading {"className":"is-style-underlined-heading","fontSize":"large"} -->
 	<h2 class="is-style-underlined-heading has-large-font-size"><?php _e( 'Archives', 'lincoln' ); ?></h2>
@@ -30,8 +30,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"border":{"style":"solid","width":"1px"},"spacing":{"padding":{"top":"2.0rem","right":"2.0rem","bottom":"2.0rem","left":"2.0rem"}}},"borderColor":"light-gray","className":"widget"} -->
-<div class="wp-block-group widget has-border-color has-light-gray-border-color" style="border-style:solid;border-width:1px;padding-top:2.0rem;padding-right:2.0rem;padding-bottom:2.0rem;padding-left:2.0rem">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"backgroundColor":"white","className":"widget"} -->
+<div class="wp-block-group widget has-white-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
 
 	<!-- wp:heading {"className":"is-style-underlined-heading","fontSize":"large"} -->
 	<h2 class="is-style-underlined-heading has-large-font-size"><?php _e( 'Tags', 'lincoln' ); ?></h2>
