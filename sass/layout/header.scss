@@ -1,0 +1,12 @@
+/* Header Area */
+.top-header {
+	a {
+		text-decoration: none;
+	}
+
+	a:hover,
+	a:active,
+	a:focus {
+		text-decoration: underline;
+	}
+}
