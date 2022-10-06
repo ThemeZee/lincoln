@@ -175,6 +175,13 @@ function lincoln_register_block_styles() {
 		'style_handle' => 'lincoln-stylesheet',
 	) );
 
+	// Register Inherit Colors block style.
+	register_block_style( 'core/social-links', array(
+		'name'         => 'inherit-colors',
+		'label'        => esc_html__( 'Inherit Colors', 'lincoln' ),
+		'style_handle' => 'lincoln-stylesheet',
+	) );
+
 	// Register Primary Hover block style.
 	register_block_style( 'core/social-links', array(
 		'name'         => 'primary-hover',

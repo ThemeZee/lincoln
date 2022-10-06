@@ -437,6 +437,16 @@ p.has-background {
 # - Block Styles
 --------------------------------------------------------------*/
 
+/* Primary Hover */
+.wp-block-social-links.is-style-inherit-colors li.wp-social-link {
+	color: inherit;
+	background: none;
+}
+
+.wp-block-social-links.is-style-inherit-colors li.wp-social-link a {
+	padding: 0;
+}
+
 /* Main Navigation */
 .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container {
 	gap: 0 1rem;

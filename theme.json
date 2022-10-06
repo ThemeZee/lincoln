@@ -155,9 +155,14 @@
 			"units": [ "px", "em", "rem", "vh", "vw", "%" ],
 			"spacingSizes": [
 				{
+					"name": "Tiny",
+					"slug": 20,
+					"size": "0.5rem"
+				},
+				{
 				  "name": "X-Small",
 				  "slug": 30,
-				  "size": "clamp(0.25rem, 4vw, 0.75rem)"
+				  "size": "clamp(0.5rem, 4vw, 0.75rem)"
 				},
 				{
 				  "name": "Small",
@@ -318,7 +323,7 @@
 			}
 		},
 		"color": {
-			"background": "#ffffff",
+			"background": "#f0f0f0",
 			"text": "#202020"
 		},
 		"elements": {
