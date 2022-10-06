@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Default List View
- * Slug: driven/blog-posts-list
+ * Slug: lincoln/blog-posts-list
  * Block Types: core/query
- * Categories: driven_blog
+ * Categories: lincoln_blog
 */
 ?>
 
@@ -17,7 +17,7 @@
 
 			<!-- wp:post-featured-image {"isLink":true,"style":{"spacing":{"margin":{"top":"0px"}}}} /-->
 
-			<!-- wp:pattern {"slug":"driven/postmeta"} /-->
+			<!-- wp:pattern {"slug":"lincoln/postmeta"} /-->
 
 			<!-- wp:post-title {"isLink":true,"className":"is-style-underlined-heading","fontSize":"huge"} /-->
 

@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: About Page
- * Slug: driven/page-layout-about
+ * Slug: lincoln/page-layout-about
  * Block Types: core/post-content
- * Categories: driven_page_layouts
+ * Categories: lincoln_page_layouts
 */
 ?>
 
@@ -27,7 +27,7 @@
 		<div class="wp-block-column" style="flex-basis:40%">
 
 			<!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"3.5vw"}}}} -->
-			<h2 style="margin-bottom:3.5vw"><?php _e( 'Our principles', 'driven' ); ?></h2>
+			<h2 style="margin-bottom:3.5vw"><?php _e( 'Our principles', 'lincoln' ); ?></h2>
 			<!-- /wp:heading -->
 
 		</div>
@@ -43,7 +43,7 @@
 				<div class="wp-block-column">
 
 					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'One', 'driven' ); ?></h3>
+					<h3 class="is-style-underlined-heading"><?php _e( 'One', 'lincoln' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -57,7 +57,7 @@
 				<div class="wp-block-column">
 
 					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Two', 'driven' ); ?></h3>
+					<h3 class="is-style-underlined-heading"><?php _e( 'Two', 'lincoln' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -77,7 +77,7 @@
 				<div class="wp-block-column">
 
 					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Three', 'driven' ); ?></h3>
+					<h3 class="is-style-underlined-heading"><?php _e( 'Three', 'lincoln' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -91,7 +91,7 @@
 				<div class="wp-block-column">
 
 					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Four', 'driven' ); ?></h3>
+					<h3 class="is-style-underlined-heading"><?php _e( 'Four', 'lincoln' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -123,11 +123,11 @@
 		<div class="wp-block-column" style="flex-basis:40%">
 
 			<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-			<h2 class="is-style-underlined-heading"><?php _e( 'Our Team', 'driven' ); ?></h2>
+			<h2 class="is-style-underlined-heading"><?php _e( 'Our Team', 'lincoln' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
-			<p><?php _e( 'Meet our professionals and experts.', 'driven' ); ?></p>
+			<p><?php _e( 'Meet our professionals and experts.', 'lincoln' ); ?></p>
 			<!-- /wp:paragraph -->
 
 		</div>
@@ -225,7 +225,7 @@
 <div class="wp-block-group alignfull has-white-color has-primary-background-color has-text-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
 
 	<!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
-	<h2 class="has-text-align-center has-xx-large-font-size"><?php _e( 'Join our team!', 'driven' ); ?></h2>
+	<h2 class="has-text-align-center has-xx-large-font-size"><?php _e( 'Join our team!', 'lincoln' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"align":"center"} -->
@@ -237,7 +237,7 @@
 
 		<!-- wp:button {"backgroundColor":"white","textColor":"primary","className":"is-style-fill"} -->
 		<div class="wp-block-button is-style-fill">
-			<a class="wp-block-button__link has-primary-color has-white-background-color has-text-color has-background"><?php _e( 'View open positions', 'driven' ); ?></a>
+			<a class="wp-block-button__link has-primary-color has-white-background-color has-text-color has-background"><?php _e( 'View open positions', 'lincoln' ); ?></a>
 		</div>
 		<!-- /wp:button -->
 

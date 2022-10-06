@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Services Stack
- * Slug: driven/services-stack
- * Categories: driven_services
+ * Slug: lincoln/services-stack
+ * Categories: lincoln_services
 */
 ?>
 
@@ -10,7 +10,7 @@
 <div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
 
 	<!-- wp:heading -->
-	<h2><?php _e( 'What we offer', 'driven' ); ?></h2>
+	<h2><?php _e( 'What we offer', 'lincoln' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:separator {"className":"is-style-wide"} -->
@@ -24,7 +24,7 @@
 		<div class="wp-block-column" style="flex-basis:35%">
 
 			<!-- wp:heading {"level":3} -->
-			<h3><?php _e( 'Service One', 'driven' ); ?></h3>
+			<h3><?php _e( 'Service One', 'lincoln' ); ?></h3>
 			<!-- /wp:heading -->
 
 		</div>
@@ -54,7 +54,7 @@
 		<div class="wp-block-column" style="flex-basis:35%">
 
 			<!-- wp:heading {"level":3} -->
-			<h3><?php _e( 'Service Two', 'driven' ); ?></h3>
+			<h3><?php _e( 'Service Two', 'lincoln' ); ?></h3>
 			<!-- /wp:heading -->
 
 		</div>
@@ -84,7 +84,7 @@
 		<div class="wp-block-column" style="flex-basis:35%">
 
 			<!-- wp:heading {"level":3} -->
-			<h3><?php _e( 'Service Three', 'driven' ); ?></h3>
+			<h3><?php _e( 'Service Three', 'lincoln' ); ?></h3>
 			<!-- /wp:heading -->
 
 		</div>

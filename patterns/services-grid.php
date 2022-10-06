@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Services Grid
- * Slug: driven/services-grid
- * Categories: driven_services
+ * Slug: lincoln/services-grid
+ * Categories: lincoln_services
 */
 ?>
 
@@ -16,7 +16,7 @@
 		<div class="wp-block-column" style="flex-basis:40%">
 
 			<!-- wp:heading {"style":{"spacing":{"margin":{"bottom":"3.5vw"}}}} -->
-			<h2 style="margin-bottom:3.5vw"><?php _e( 'What we offer', 'driven' ); ?></h2>
+			<h2 style="margin-bottom:3.5vw"><?php _e( 'What we offer', 'lincoln' ); ?></h2>
 			<!-- /wp:heading -->
 
 		</div>
@@ -32,7 +32,7 @@
 				<div class="wp-block-column">
 
 					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Service One', 'driven' ); ?></h3>
+					<h3 class="is-style-underlined-heading"><?php _e( 'Service One', 'lincoln' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -46,7 +46,7 @@
 				<div class="wp-block-column">
 
 					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Service Two', 'driven' ); ?></h3>
+					<h3 class="is-style-underlined-heading"><?php _e( 'Service Two', 'lincoln' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -66,7 +66,7 @@
 				<div class="wp-block-column">
 
 					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Service Three', 'driven' ); ?></h3>
+					<h3 class="is-style-underlined-heading"><?php _e( 'Service Three', 'lincoln' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -80,7 +80,7 @@
 				<div class="wp-block-column">
 
 					<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-					<h3 class="is-style-underlined-heading"><?php _e( 'Service Four', 'driven' ); ?></h3>
+					<h3 class="is-style-underlined-heading"><?php _e( 'Service Four', 'lincoln' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->

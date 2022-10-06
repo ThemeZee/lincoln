@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Portfolio Grid
- * Slug: driven/portfolio-grid
- * Categories: driven_portfolio
+ * Slug: lincoln/portfolio-grid
+ * Categories: lincoln_portfolio
 */
 ?>
 
@@ -10,7 +10,7 @@
 <div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
 
 	<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-	<h2 class="is-style-underlined-heading"><?php _e( 'What we have done', 'driven' ); ?></h2>
+	<h2 class="is-style-underlined-heading"><?php _e( 'What we have done', 'lincoln' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"fontSize":"large"} -->
@@ -30,7 +30,7 @@
 			<!-- /wp:image -->
 
 			<!-- wp:heading {"level":3} -->
-			<h3><?php _e( 'Project One', 'driven' ); ?></h3>
+			<h3><?php _e( 'Project One', 'lincoln' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
@@ -40,7 +40,7 @@
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
 				<!-- wp:button -->
-				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'driven' ); ?></a></div>
+				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'lincoln' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
@@ -58,7 +58,7 @@
 			<!-- /wp:image -->
 
 			<!-- wp:heading {"level":3} -->
-			<h3><?php _e( 'Project Two', 'driven' ); ?></h3>
+			<h3><?php _e( 'Project Two', 'lincoln' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
@@ -68,7 +68,7 @@
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
 				<!-- wp:button -->
-				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'driven' ); ?></a></div>
+				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'lincoln' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
@@ -86,7 +86,7 @@
 			<!-- /wp:image -->
 
 			<!-- wp:heading {"level":3} -->
-			<h3><?php _e( 'Project Three', 'driven' ); ?></h3>
+			<h3><?php _e( 'Project Three', 'lincoln' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
@@ -96,7 +96,7 @@
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
 				<!-- wp:button -->
-				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'driven' ); ?></a></div>
+				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'lincoln' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->

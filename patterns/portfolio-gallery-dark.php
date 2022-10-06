@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Portfolio Gallery Dark
- * Slug: driven/portfolio-gallery-dark
- * Categories: driven_portfolio
+ * Slug: lincoln/portfolio-gallery-dark
+ * Categories: lincoln_portfolio
 */
 ?>
 
@@ -16,7 +16,7 @@
 		<div class="wp-block-column" style="flex-basis:40%">
 
 			<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-			<h2 class="is-style-underlined-heading"><?php _e( 'What we have done', 'driven' ); ?></h2>
+			<h2 class="is-style-underlined-heading"><?php _e( 'What we have done', 'lincoln' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->
@@ -26,7 +26,7 @@
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
 				<!-- wp:button -->
-				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'driven' ); ?></a></div>
+				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'lincoln' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->

@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Portfolio Double Dark
- * Slug: driven/portfolio-double-dark
- * Categories: driven_portfolio
+ * Slug: lincoln/portfolio-double-dark
+ * Categories: lincoln_portfolio
 */
 ?>
 
@@ -22,7 +22,7 @@
 		<!-- /wp:image -->
 
 		<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-		<h3 class="is-style-underlined-heading"><?php _e( 'Project One', 'driven' ); ?></h3>
+		<h3 class="is-style-underlined-heading"><?php _e( 'Project One', 'lincoln' ); ?></h3>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph -->
@@ -32,7 +32,7 @@
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
 			<!-- wp:button -->
-			<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'driven' ); ?></a></div>
+			<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'lincoln' ); ?></a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->
@@ -54,7 +54,7 @@
 		<!-- /wp:image -->
 
 		<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-		<h3 class="is-style-underlined-heading"><?php _e( 'Project Two', 'driven' ); ?></h3>
+		<h3 class="is-style-underlined-heading"><?php _e( 'Project Two', 'lincoln' ); ?></h3>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph -->
@@ -64,7 +64,7 @@
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
 			<!-- wp:button -->
-			<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'driven' ); ?></a></div>
+			<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'lincoln' ); ?></a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->

@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Team Grid Dark
- * Slug: driven/team-grid-dark
- * Categories: driven_team
+ * Slug: lincoln/team-grid-dark
+ * Categories: lincoln_team
 */
 ?>
 
@@ -16,11 +16,11 @@
 		<div class="wp-block-column" style="flex-basis:40%">
 
 			<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-			<h2 class="is-style-underlined-heading"><?php _e( 'Our Team', 'driven' ); ?></h2>
+			<h2 class="is-style-underlined-heading"><?php _e( 'Our Team', 'lincoln' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
-			<p><?php _e( 'Meet our professionals and experts.', 'driven' ); ?></p>
+			<p><?php _e( 'Meet our professionals and experts.', 'lincoln' ); ?></p>
 			<!-- /wp:paragraph -->
 
 		</div>

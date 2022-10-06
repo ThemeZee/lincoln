@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Team Columns Dark
- * Slug: driven/team-columns-dark
- * Categories: driven_team
+ * Slug: lincoln/team-columns-dark
+ * Categories: lincoln_team
 */
 ?>
 
@@ -10,7 +10,7 @@
 <div class="wp-block-group alignfull has-white-color has-dark-background-background-color has-text-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
 
 	<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-	<h2 class="is-style-underlined-heading"><?php _e( 'Our Team', 'driven' ); ?></h2>
+	<h2 class="is-style-underlined-heading"><?php _e( 'Our Team', 'lincoln' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->

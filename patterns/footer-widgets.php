@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer Widgets
- * Slug: driven/footer-widgets
+ * Slug: lincoln/footer-widgets
  * Inserter: no
 */
 ?>
@@ -16,11 +16,11 @@
 		<div class="wp-block-group footer-widget">
 
 			<!-- wp:heading {"level":3,"textColor":"white","fontSize":"large"} -->
-			<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'About Driven', 'driven' ); ?></h3>
+			<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'About Lincoln', 'lincoln' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
-			<p><?php _e( 'Driven is a next generation block theme built for the new WordPress Full-Site-Editing experience. It comes with a clean and modern design and is packed with features, including a huge range of block patterns, multiple header and footer block template parts and support for global style variants.', 'driven' ); ?></p>
+			<p><?php _e( 'Lincoln is a next generation block theme built for the new WordPress Full-Site-Editing experience. It comes with a clean and modern design and is packed with features, including a huge range of block patterns, multiple header and footer block template parts and support for global style variants.', 'lincoln' ); ?></p>
 			<!-- /wp:paragraph -->
 
 		</div>
@@ -36,7 +36,7 @@
 		<div class="wp-block-group footer-widget">
 
 		<!-- wp:heading {"level":3,"textColor":"white","fontSize":"large"} -->
-		<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Categories', 'driven' ); ?></h3>
+		<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Categories', 'lincoln' ); ?></h3>
 		<!-- /wp:heading -->
 
 		<!-- wp:categories {"className":"is-style-flip-link-hover"} /-->
@@ -54,7 +54,7 @@
 		<div class="wp-block-group footer-widget">
 
 		<!-- wp:heading {"level":3,"textColor":"white","fontSize":"large"} -->
-		<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Archives', 'driven' ); ?></h3>
+		<h3 class="has-white-color has-text-color has-large-font-size"><?php _e( 'Archives', 'lincoln' ); ?></h3>
 		<!-- /wp:heading -->
 
 		<!-- wp:archives {"className":"is-style-flip-link-hover"} /-->

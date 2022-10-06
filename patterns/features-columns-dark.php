@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Features Columns Dark
- * Slug: driven/features-columns-dark
- * Categories: driven_features
+ * Slug: lincoln/features-columns-dark
+ * Categories: lincoln_features
 */
 ?>
 
@@ -10,7 +10,7 @@
 <div class="wp-block-group alignfull has-white-color has-dark-background-background-color has-text-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
 
 	<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-	<h2 class="is-style-underlined-heading"><?php _e( 'Why choose us?', 'driven' ); ?></h2>
+	<h2 class="is-style-underlined-heading"><?php _e( 'Why choose us?', 'lincoln' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->

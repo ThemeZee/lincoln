@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Testimonials List Dark
- * Slug: driven/testimonials-list-dark
- * Categories: driven_testimonials
+ * Slug: lincoln/testimonials-list-dark
+ * Categories: lincoln_testimonials
 */
 ?>
 
@@ -16,11 +16,11 @@
 		<div class="wp-block-column" style="flex-basis:30%">
 
 			<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-			<h2 class="is-style-underlined-heading"><?php _e( 'What clients say', 'driven' ); ?></h2>
+			<h2 class="is-style-underlined-heading"><?php _e( 'What clients say', 'lincoln' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
-			<p><?php _e( 'What customers <br>think about us.', 'driven' ); ?></p>
+			<p><?php _e( 'What customers <br>think about us.', 'lincoln' ); ?></p>
 			<!-- /wp:paragraph -->
 
 		</div>

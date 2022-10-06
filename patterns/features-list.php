@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Features List
- * Slug: driven/features-list
- * Categories: driven_features
+ * Slug: lincoln/features-list
+ * Categories: lincoln_features
 */
 ?>
 
@@ -16,7 +16,7 @@
 		<div class="wp-block-column" style="flex-basis:40%">
 
 			<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-			<h2 class="is-style-underlined-heading"><?php _e( 'Why choose us?', 'driven' ); ?></h2>
+			<h2 class="is-style-underlined-heading"><?php _e( 'Why choose us?', 'lincoln' ); ?></h2>
 			<!-- /wp:heading -->
 
 		</div>

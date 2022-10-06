@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Two Columns Grid
- * Slug: driven/blog-posts-grid
+ * Slug: lincoln/blog-posts-grid
  * Block Types: core/query
- * Categories: driven_blog
+ * Categories: lincoln_blog
 */
 ?>
 
@@ -21,7 +21,7 @@
 			<div class="wp-block-group has-gray-color has-text-color has-small-font-size">
 
 				<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} -->
-				<p style="font-style:normal;font-weight:700"><?php _e( 'Posted on', 'driven' ); ?></p>
+				<p style="font-style:normal;font-weight:700"><?php _e( 'Posted on', 'lincoln' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:post-date {"isLink":true,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} /-->
@@ -33,7 +33,7 @@
 			<div class="wp-block-group has-gray-color has-text-color has-small-font-size" style="margin-top:0px">
 
 				<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} -->
-				<p style="font-style:normal;font-weight:700"><?php _e( 'by', 'driven' ); ?></p>
+				<p style="font-style:normal;font-weight:700"><?php _e( 'by', 'lincoln' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:post-author {"showAvatar":false,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} /-->

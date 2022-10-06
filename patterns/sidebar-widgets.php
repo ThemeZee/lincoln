@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Sidebar Widgets
- * Slug: driven/sidebar-widgets
+ * Slug: lincoln/sidebar-widgets
  * Inserter: no
 */
 ?>
@@ -10,7 +10,7 @@
 <div class="wp-block-group widget has-border-color has-light-gray-border-color" style="border-style:solid;border-width:1px;padding-top:2.0rem;padding-right:2.0rem;padding-bottom:2.0rem;padding-left:2.0rem">
 
 	<!-- wp:heading {"className":"is-style-underlined-heading","fontSize":"large"} -->
-	<h2 class="is-style-underlined-heading has-large-font-size"><?php _e( 'Categories', 'driven' ); ?></h2>
+	<h2 class="is-style-underlined-heading has-large-font-size"><?php _e( 'Categories', 'lincoln' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:categories {"className":"is-style-flip-link-hover"} /-->
@@ -22,7 +22,7 @@
 <div class="wp-block-group widget has-border-color has-light-gray-border-color" style="border-style:solid;border-width:1px;padding-top:2.0rem;padding-right:2.0rem;padding-bottom:2.0rem;padding-left:2.0rem">
 
 	<!-- wp:heading {"className":"is-style-underlined-heading","fontSize":"large"} -->
-	<h2 class="is-style-underlined-heading has-large-font-size"><?php _e( 'Archives', 'driven' ); ?></h2>
+	<h2 class="is-style-underlined-heading has-large-font-size"><?php _e( 'Archives', 'lincoln' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:archives {"className":"is-style-flip-link-hover"} /-->
@@ -34,7 +34,7 @@
 <div class="wp-block-group widget has-border-color has-light-gray-border-color" style="border-style:solid;border-width:1px;padding-top:2.0rem;padding-right:2.0rem;padding-bottom:2.0rem;padding-left:2.0rem">
 
 	<!-- wp:heading {"className":"is-style-underlined-heading","fontSize":"large"} -->
-	<h2 class="is-style-underlined-heading has-large-font-size"><?php _e( 'Tags', 'driven' ); ?></h2>
+	<h2 class="is-style-underlined-heading has-large-font-size"><?php _e( 'Tags', 'lincoln' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:tag-cloud {"className":"is-style-flip-link-hover"} /-->

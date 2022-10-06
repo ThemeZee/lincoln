@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Hero Cover Box
- * Slug: driven/hero-cover-box
- * Categories: driven_hero
+ * Slug: lincoln/hero-cover-box
+ * Categories: lincoln_hero
 */
 ?>
 
@@ -30,7 +30,7 @@
 				<div class="wp-block-group has-dark-background-color has-white-background-color has-text-color has-background" style="padding-top:3rem;padding-right:3rem;padding-bottom:3rem;padding-left:3rem">
 
 					<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-					<h2 class="is-style-underlined-heading"><?php _e( 'Hero Headline', 'driven' ); ?></h2>
+					<h2 class="is-style-underlined-heading"><?php _e( 'Hero Headline', 'lincoln' ); ?></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
@@ -40,7 +40,7 @@
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons">
 						<!-- wp:button -->
-						<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Join now', 'driven' ); ?></a></div>
+						<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Join now', 'lincoln' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->

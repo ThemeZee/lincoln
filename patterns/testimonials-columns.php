@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Testimonials Columns
- * Slug: driven/testimonials-columns
- * Categories: driven_testimonials
+ * Slug: lincoln/testimonials-columns
+ * Categories: lincoln_testimonials
 */
 ?>
 
@@ -10,7 +10,7 @@
 <div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
 
 	<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-	<h2 class="is-style-underlined-heading"><?php _e( 'What clients say', 'driven' ); ?></h2>
+	<h2 class="is-style-underlined-heading"><?php _e( 'What clients say', 'lincoln' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->

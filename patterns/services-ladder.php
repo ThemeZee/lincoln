@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Services Ladder
- * Slug: driven/services-ladder
- * Categories: driven_services
+ * Slug: lincoln/services-ladder
+ * Categories: lincoln_services
 */
 ?>
 
@@ -10,7 +10,7 @@
 <div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
 
 	<!-- wp:heading {"textAlign":"center"} -->
-	<h2 class="has-text-align-center"><?php _e( 'What we offer', 'driven' ); ?></h2>
+	<h2 class="has-text-align-center"><?php _e( 'What we offer', 'lincoln' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
@@ -20,7 +20,7 @@
 		<div class="wp-block-column">
 
 			<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-			<h3 class="is-style-underlined-heading"><?php _e( 'Service One', 'driven' ); ?></h3>
+			<h3 class="is-style-underlined-heading"><?php _e( 'Service One', 'lincoln' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
@@ -38,7 +38,7 @@
 			<!-- /wp:spacer -->
 
 			<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-			<h3 class="is-style-underlined-heading"><?php _e( 'Service Two', 'driven' ); ?></h3>
+			<h3 class="is-style-underlined-heading"><?php _e( 'Service Two', 'lincoln' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
@@ -56,7 +56,7 @@
 			<!-- /wp:spacer -->
 
 			<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-			<h3 class="is-style-underlined-heading"><?php _e( 'Service Three', 'driven' ); ?></h3>
+			<h3 class="is-style-underlined-heading"><?php _e( 'Service Three', 'lincoln' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->

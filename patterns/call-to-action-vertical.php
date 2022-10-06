@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Call to Action Vertical
- * Slug: driven/call-to-action-vertical
- * Categories: driven_cta
+ * Slug: lincoln/call-to-action-vertical
+ * Categories: lincoln_cta
 */
 ?>
 
@@ -10,7 +10,7 @@
 <div class="wp-block-group alignfull has-white-color has-primary-background-color has-text-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
 
 	<!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
-	<h2 class="has-text-align-center has-xx-large-font-size"><?php _e( 'Call to Action', 'driven' ); ?></h2>
+	<h2 class="has-text-align-center has-xx-large-font-size"><?php _e( 'Call to Action', 'lincoln' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"align":"center"} -->
@@ -22,7 +22,7 @@
 
 		<!-- wp:button {"backgroundColor":"white","textColor":"primary","className":"is-style-fill"} -->
 		<div class="wp-block-button is-style-fill">
-			<a class="wp-block-button__link has-primary-color has-white-background-color has-text-color has-background"><?php _e( 'Join now', 'driven' ); ?></a>
+			<a class="wp-block-button__link has-primary-color has-white-background-color has-text-color has-background"><?php _e( 'Join now', 'lincoln' ); ?></a>
 		</div>
 		<!-- /wp:button -->
 

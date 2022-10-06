@@ -1,22 +1,22 @@
 {
-  "name": "driven",
+  "name": "lincoln",
   "version": "1.0.0",
-  "description": "Driven WordPress Theme",
+  "description": "Lincoln WordPress Theme",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "export": "git archive HEAD -9 --prefix driven/ --format=zip > ../../driven.zip"
+    "export": "git archive HEAD -9 --prefix lincoln/ --format=zip > ../../lincoln.zip"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThemeZee/driven.git"
+    "url": "git+https://github.com/ThemeZee/lincoln.git"
   },
   "author": "ThemeZee",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ThemeZee/driven/issues"
+    "url": "https://github.com/ThemeZee/lincoln/issues"
   },
-  "homepage": "https://github.com/ThemeZee/driven#readme",
+  "homepage": "https://github.com/ThemeZee/lincoln#readme",
   "devDependencies": {
     "autoprefixer": "^9.6.1",
     "gulp": "^4.0.2",
