@@ -34,16 +34,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /*--------------------------------------------------------------
 # - HTML Elements
 --------------------------------------------------------------*/
-@import "elements/paragraphs";
-@import "elements/headings";
-@import "elements/links";
-@import "elements/hr";
 @import "elements/formatted";
-@import "elements/quotes";
-@import "elements/lists";
-@import "elements/tables";
-@import "elements/media";
 @import "elements/forms";
+@import "elements/hr";
+@import "elements/lists";
+@import "elements/media";
+@import "elements/quotes";
+@import "elements/tables";
 
 /*--------------------------------------------------------------
 # - Theme Layout
@@ -56,42 +53,17 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import "layout/alignments";
 
 /*--------------------------------------------------------------
-# - Theme Blocks
+# - Blocks
 --------------------------------------------------------------*/
-@import "blocks/site-title";
-@import "blocks/navigation";
-@import "blocks/social-links";
-
-/*--------------------------------------------------------------
-# - Query Blocks
---------------------------------------------------------------*/
-@import "blocks/post-title";
-@import "blocks/post-author";
-@import "blocks/post-excerpt";
-@import "blocks/post-comments";
-@import "blocks/query-pagination";
-
-/*--------------------------------------------------------------
-# - Layout Blocks
---------------------------------------------------------------*/
-@import "blocks/group";
 @import "blocks/button";
-@import "blocks/search";
-
-/*--------------------------------------------------------------
-# - Textformatting Blocks
---------------------------------------------------------------*/
-@import "blocks/quote";
+@import "blocks/group";
+@import "blocks/heading";
+@import "blocks/navigation";
+@import "blocks/paragraph";
 @import "blocks/pullquote";
+@import "blocks/quote";
+@import "blocks/search";
 @import "blocks/separator";
-
-/*--------------------------------------------------------------
-# - Media Blocks
---------------------------------------------------------------*/
-@import "blocks/audio";
-@import "blocks/image";
-@import "blocks/gallery";
-@import "blocks/table";
 
 /*--------------------------------------------------------------
 # - Block Styles
