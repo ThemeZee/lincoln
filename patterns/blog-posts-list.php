@@ -12,16 +12,16 @@
 
 	<!-- wp:post-template -->
 
-		<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"3.5vw"}}}} -->
-		<div class="wp-block-group" style="margin-bottom:3.5vw">
+		<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|80"}}}} -->
+		<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--80)">
 
-			<!-- wp:post-featured-image {"isLink":true,"style":{"spacing":{"margin":{"top":"0px"}}}} /-->
+			<!-- wp:post-featured-image {"isLink":true,"style":{"spacing":{"margin":{"top":"0"}}}} /-->
 
 			<!-- wp:pattern {"slug":"lincoln/postmeta"} /-->
 
 			<!-- wp:post-title {"isLink":true,"className":"is-style-underlined-heading","fontSize":"huge"} /-->
 
-			<!-- wp:post-excerpt {"moreText":"\u003cstrong\u003eContinue reading\u003c/strong\u003e","style":{"spacing":{"margin":{"bottom":"0px"}}}} /-->
+			<!-- wp:post-excerpt {"moreText":"\u003cstrong\u003eContinue reading\u003c/strong\u003e","style":{"spacing":{"margin":{"bottom":"0"}}}} /-->
 
 		</div>
 		<!-- /wp:group -->
