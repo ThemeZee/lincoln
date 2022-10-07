@@ -19,7 +19,7 @@
 	<p>&nbsp;<?php _e( 'by', 'lincoln' ); ?>&nbsp;</p>
 	<!-- /wp:paragraph -->
 
-	<!-- wp:post-author-name {"isLink":true} /-->
+	<!-- wp:post-author {"showAvatar":false} /-->
 
 	<!-- wp:post-terms {"term":"category","prefix":"&nbsp;<?php _e( 'in', 'lincoln' ); ?>&nbsp;"} /-->
 
