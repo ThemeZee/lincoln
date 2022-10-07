@@ -100,7 +100,6 @@ input[type="submit"] {
 	font-weight: 500;
 	font-size: var(--wp--preset--font-size--small);
 	line-height: inherit;
-	transition: background-color 0.25s ease-in-out;
 }
 
 input[type="button"]:hover,
@@ -308,11 +307,6 @@ th {
 --------------------------------------------------------------*/
 
 /* Button Block */
-.wp-element-button,
-.wp-block-button__link {
-	transition: background-color 0.25s ease-in-out;
-}
-
 .wp-block-button.is-style-outline > .wp-block-button__link,
 .wp-block-button .wp-block-button__link.is-style-outline {
 	border: 3px solid;
@@ -357,11 +351,6 @@ h6.has-background {
 /* Paragraph Block */
 p.has-background {
 	padding: 1.25rem 1.5rem;
-}
-
-/* Post Excerpt Block */
-.wp-block-post-excerpt__more-link {
-	transition: background-color 0.25s ease-in-out;
 }
 
 /* Pullquote Block */
@@ -520,7 +509,6 @@ p.has-background {
 .wp-block-social-links.is-style-primary-hover li.wp-social-link {
 	color: inherit;
 	background: none;
-	transition: color 0.25s ease-in-out;
 }
 
 .wp-block-social-links.is-style-primary-hover li.wp-social-link:hover {
