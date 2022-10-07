@@ -234,17 +234,6 @@ th {
 	margin-top: 0;
 }
 
-/* Header Area */
-.top-header a {
-	text-decoration: none;
-}
-
-.top-header a:hover,
-.top-header a:active,
-.top-header a:focus {
-	text-decoration: underline;
-}
-
 /* Change breakproint of main sidebar layout */
 @media (max-width: 880px) {
 	.site-content > .wp-block-columns:not(.is-not-stacked-on-mobile) {
@@ -497,11 +486,11 @@ p.has-background {
 }
 
 /* Flip Link Hover */
-.is-style-flip-link-hover a {
+.flip-link-hover a {
 	text-decoration: none;
 }
 
-.is-style-flip-link-hover a:hover, .is-style-flip-link-hover a:focus, .is-style-flip-link-hover a:active {
+.flip-link-hover a:hover, .flip-link-hover a:focus, .flip-link-hover a:active {
 	text-decoration: underline;
 }
 
