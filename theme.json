@@ -66,23 +66,28 @@
 				},
 				{
 					"slug": "light-gray",
-					"color": "#f0f0f0",
+					"color": "#ecf4f8",
 					"name": "Light Gray"
 				},
 				{
 					"slug": "medium-gray",
-					"color": "#e0e0e0",
+					"color": "#d1dce1",
 					"name": "Medium Gray"
 				},
 				{
 					"slug": "gray",
-					"color": "#808080",
+					"color": "#778287",
 					"name": "Gray"
 				},
 				{
 					"slug": "dark-gray",
-					"color": "#303030",
+					"color": "#384348",
 					"name": "Dark Gray"
+				},
+				{
+					"slug": "darker-gray",
+					"color": "#1e292e",
+					"name": "Darker Gray"
 				}
 			]
 		},
@@ -354,7 +359,7 @@
 			}
 		},
 		"color": {
-			"background": "#f0f0f0",
+			"background": "#ecf4f8",
 			"text": "#202020"
 		},
 		"elements": {
