@@ -313,6 +313,26 @@
 					"fontSize": "clamp(16px, calc(1rem + 0.16vw), 19px)"
 				}
 			},
+			"core/navigation": {
+				"elements": {
+                    "link": {
+						"color": {
+							"text": "inherit"
+						},
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"color": {
+								"text": "inherit"
+							},
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
+				}
+			},
 			"core/post-excerpt": {
 				"typography": {
 					"fontSize": "clamp(16px, calc(1rem + 0.16vw), 19px)"
