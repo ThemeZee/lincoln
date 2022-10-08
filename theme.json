@@ -447,6 +447,20 @@
 				"spacing": {
 					"blockGap": "0.5em"
 				}
+			},
+			"core/tag-cloud": {
+				"elements": {
+                    "link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
+				}
 			}
 		},
 		"color": {
