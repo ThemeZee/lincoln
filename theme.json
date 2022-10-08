@@ -96,6 +96,7 @@
 			"wideSize": "1080px"
 		},
 		"typography": {
+			"fluid": true,
 			"dropCap": true,
 			"customFontSize": true,
 			"letterSpacing": true,
@@ -113,41 +114,61 @@
 			"fontSizes": [
 				{
 					"size": "14px",
+					"fluid": false,
 					"slug": "tiny",
 					"name": "Tiny"
 				},
 				{
 					"size": "16px",
+					"fluid": false,
 					"slug": "small",
 					"name": "Small"
 				},
 				{
 					"size": "18px",
+					"fluid": false,
 					"slug": "base",
 					"name": "Base"
 				},
 				{
 					"size": "20px",
+					"fluid": false,
 					"slug": "medium",
 					"name": "Medium"
 				},
 				{
-					"size": "clamp(20px, calc(1rem + 0.83vw), 24px)",
+					"size": "24px",
+					"fluid": {
+						"min": "1.25rem",
+						"max": "1.5rem"
+					},
 					"slug": "large",
 					"name": "Large"
 				},
 				{
-					"size": "clamp(22px, calc(1rem + 1.25vw), 28px)",
+					"size": "28px",
+					"fluid": {
+						"min": "1.375rem",
+						"max": "1.75rem"
+					},
 					"slug": "x-large",
 					"name": "Extra Large"
 				},
 				{
-					"size": "clamp(24px, calc(1rem + 1.67vw), 36px)",
+					"size": "36px",
+					"fluid": {
+						"min": "1.5rem",
+						"max": "2.25rem"
+					},
 					"slug": "xx-large",
 					"name": "Extra Extra Large"
 				},
 				{
-					"size": "clamp(28px, calc(1rem + 2.5vw), 48px)",
+					"size": "48px",
+					"fluid": {
+						"min": "1.75rem",
+						"max": "3rem"
+					},
 					"slug": "huge",
 					"name": "Huge"
 				}
