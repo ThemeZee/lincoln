@@ -322,6 +322,17 @@ p.has-background {
 	padding: 1.25rem 1.5rem;
 }
 
+/* Post Template Block */
+.wp-block-post-template.is-flex-container {
+	gap: var(--wp--preset--spacing--70);
+}
+
+@media (min-width: 600px) {
+	.wp-block-post-template.is-flex-container.is-flex-container.columns-2 > li {
+		width: calc(50% - ( var(--wp--preset--spacing--70) / 2 ));
+	}
+}
+
 /* Pullquote Block */
 .wp-block-pullquote {
 	border-top: 0.25rem solid currentColor;
