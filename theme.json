@@ -573,17 +573,22 @@
 	"templateParts": [
 		{
 			"name": "header",
-			"title": "Header Large",
+			"title": "Header (Default)",
 			"area": "header"
 		},
 		{
-			"name": "header-small",
-			"title": "Header Small",
+			"name": "header-centered-logo",
+			"title": "Header (Centered Logo)",
+			"area": "header"
+		},
+		{
+			"name": "header-centered-navigation",
+			"title": "Header (Centered Navigation)",
 			"area": "header"
 		},
 		{
 			"name": "header-social-icons",
-			"title": "Header with Social Icons",
+			"title": "Header (Social Icons after Logo)",
 			"area": "header"
 		},
 		{
@@ -595,6 +600,11 @@
 			"name": "footer-small",
 			"title": "Footer Small",
 			"area": "footer"
+		},
+		{
+			"area": "uncategorized",
+			"name": "sidebar",
+			"title": "Sidebar"
 		}
 	]
 }
