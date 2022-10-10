@@ -593,12 +593,22 @@
 		},
 		{
 			"name": "footer",
-			"title": "Footer Large",
+			"title": "Footer (Default)",
 			"area": "footer"
 		},
 		{
-			"name": "footer-small",
-			"title": "Footer Small",
+			"name": "footer-columns",
+			"title": "Footer (Columns)",
+			"area": "footer"
+		},
+		{
+			"name": "footer-links",
+			"title": "Footer (Links)",
+			"area": "footer"
+		},
+		{
+			"name": "footer-navigation",
+			"title": "Footer (Navigation)",
 			"area": "footer"
 		},
 		{
