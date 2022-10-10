@@ -2,8 +2,8 @@
 	"version": 2,
 	"customTemplates": [
 		{
-			"name": "blank",
-			"title": "Blank",
+			"name": "page-blank",
+			"title": "Page (Blank)",
 			"postTypes": [
 				"page"
 			]
@@ -16,22 +16,8 @@
 			]
 		},
 		{
-			"name": "page-no-title",
-			"title": "No Title",
-			"postTypes": [
-				"page"
-			]
-		},
-		{
-			"name": "page-no-title-fullwidth",
-			"title": "No Title (Fullwidth)",
-			"postTypes": [
-				"page"
-			]
-		},
-		{
-			"name": "page-sidebar-right",
-			"title": "Sidebar Right",
+			"name": "page-sidebar",
+			"title": "Page (Sidebar)",
 			"postTypes": [
 				"page"
 			]
@@ -93,7 +79,7 @@
 		},
 		"layout": {
 			"contentSize": "800px",
-			"wideSize": "1080px"
+			"wideSize": "1000px"
 		},
 		"typography": {
 			"fluid": true,
