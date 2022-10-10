@@ -141,6 +141,13 @@ function lincoln_register_block_styles() {
 		'style_handle' => 'lincoln-stylesheet',
 	) );
 
+	// Register Footer Navigation block style.
+	register_block_style( 'core/navigation', array(
+		'name'         => 'footer-navigation',
+		'label'        => esc_html__( 'Footer Navigation', 'lincoln' ),
+		'style_handle' => 'lincoln-stylesheet',
+	) );
+
 	// Register Inherit Colors block style.
 	register_block_style( 'core/social-links', array(
 		'name'         => 'inherit-colors',
