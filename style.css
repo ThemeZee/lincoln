@@ -302,6 +302,13 @@ th {
 	padding: 0.4rem 1rem;
 }
 
+.wp-block-button.is-style-outline > .wp-block-button__link.has-primary-color:hover, .wp-block-button.is-style-outline > .wp-block-button__link.has-primary-color:active, .wp-block-button.is-style-outline > .wp-block-button__link.has-primary-color:focus,
+.wp-block-button .wp-block-button__link.is-style-outline.has-primary-color:hover,
+.wp-block-button .wp-block-button__link.is-style-outline.has-primary-color:active,
+.wp-block-button .wp-block-button__link.is-style-outline.has-primary-color:focus {
+	color: var(--wp--preset--color--secondary) !important;
+}
+
 /* Group Block */
 .wp-block-group.has-background {
 	padding: 1.5rem;
