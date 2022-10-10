@@ -229,11 +229,6 @@ th {
 # - Theme Layout
 --------------------------------------------------------------*/
 
-/* Remove default spacing of top level group */
-.wp-site-blocks > * + * {
-	margin-top: 0;
-}
-
 /* Change breakproint of main sidebar layout */
 @media (max-width: 880px) {
 	.site-content > .wp-block-columns:not(.is-not-stacked-on-mobile) {
@@ -249,6 +244,11 @@ th {
 		margin-top: var(--wp--style--block-gap, 2em);
 		margin-left: 0;
 	}
+}
+
+/* Block template parts have no options so we remove the margin manually */
+.site-footer.wp-block-template-part {
+	margin-top: 0;
 }
 
 /* Block Alignments */
