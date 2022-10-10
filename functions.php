@@ -41,13 +41,6 @@ function lincoln_block_scripts() {
 	// Enqueue Editor Styling.
 	wp_enqueue_style( 'lincoln-editor-styles', get_theme_file_uri( '/assets/css/editor-styles.css' ), array(), wp_get_theme()->get( 'Version' ), 'all' );
 
-	// Get current screen.
-	$current_screen = get_current_screen();
-
-	// Enqueue Page Template Switcher Editor plugin.
-	if ( method_exists( $current_screen, 'is_block_editor' ) && $current_screen->is_block_editor() && 'post' === $current_screen->base ) {
-		wp_enqueue_script( 'lincoln-page-template-switcher', get_theme_file_uri( '/assets/js/page-template-switcher.js' ), array( 'wp-blocks', 'wp-element', 'wp-edit-post' ), '2022-06-01' );
-	}
 }
 add_action( 'enqueue_block_editor_assets', 'lincoln_block_scripts' );
 
@@ -66,33 +59,6 @@ function lincoln_excerpt_length( $length ) {
 	return apply_filters( 'lincoln_excerpt_length', 20 );
 }
 add_filter( 'excerpt_length', 'lincoln_excerpt_length' );
-
-
-/**
- * Add body classes in Gutenberg Editor.
- */
-function lincoln_block_editor_body_classes( $classes ) {
-	global $post;
-	$current_screen = get_current_screen();
-
-	// Return early if we are not in the Gutenberg Editor.
-	if ( ! ( method_exists( $current_screen, 'is_block_editor' ) && $current_screen->is_block_editor() && 'post' === $current_screen->base ) ) {
-		return $classes;
-	}
-
-	// Fullwidth Page Template?
-	if ( 'page-fullwidth' === get_page_template_slug( $post->ID ) or 'page-no-title-fullwidth' === get_page_template_slug( $post->ID ) ) {
-		$classes .= ' lincoln-fullwidth-page';
-	}
-
-	// No Title Page Template?
-	if ( 'page-no-title' === get_page_template_slug( $post->ID ) or 'page-no-title-fullwidth' === get_page_template_slug( $post->ID ) or 'blank' === get_page_template_slug( $post->ID ) ) {
-		$classes .= ' lincoln-no-title-page';
-	}
-
-	return $classes;
-}
-add_filter( 'admin_body_class', 'lincoln_block_editor_body_classes' );
 
 
 /**
