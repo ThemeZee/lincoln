@@ -648,7 +648,6 @@ p.has-background {
 .is-style-underlined-heading::before {
 	display: inline-block;
 	position: absolute;
-	left: 0;
 	bottom: 0;
 	width: 1.5em;
 	height: 4px;

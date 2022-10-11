@@ -67,13 +67,8 @@
 				},
 				{
 					"slug": "dark-gray",
-					"color": "#384348",
+					"color": "#2b363b",
 					"name": "Dark Gray"
-				},
-				{
-					"slug": "darker-gray",
-					"color": "#1e292e",
-					"name": "Darker Gray"
 				}
 			]
 		},
