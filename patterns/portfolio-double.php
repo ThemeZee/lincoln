@@ -6,10 +6,10 @@
 */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"}}},"backgroundColor":"white","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|80"},"margin":{"top":"0"}}},"backgroundColor":"white","layout":{"contentSize":"800px","wideSize":"1200px","type":"constrained"}} -->
+<div class="wp-block-group alignfull has-white-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--80)">
 
-	<!-- wp:columns {"style":{"spacing":{"blockGap":"2rem"}}} -->
+	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|60"}}}} -->
 	<div class="wp-block-columns">
 
 	<!-- wp:column -->
@@ -21,8 +21,8 @@
 		</figure>
 		<!-- /wp:image -->
 
-		<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-		<h3 class="is-style-underlined-heading"><?php _e( 'Project One', 'lincoln' ); ?></h3>
+		<!-- wp:heading {"level":3} -->
+		<h3>Tax Calculator</h3>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph -->
@@ -32,7 +32,7 @@
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
 			<!-- wp:button -->
-			<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'lincoln' ); ?></a></div>
+			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Try now</a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->
@@ -53,8 +53,8 @@
 		</figure>
 		<!-- /wp:image -->
 
-		<!-- wp:heading {"level":3,"className":"is-style-underlined-heading"} -->
-		<h3 class="is-style-underlined-heading"><?php _e( 'Project Two', 'lincoln' ); ?></h3>
+		<!-- wp:heading {"level":3} -->
+		<h3>Retirement Planner</h3>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph -->
@@ -64,7 +64,7 @@
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
 			<!-- wp:button -->
-			<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'lincoln' ); ?></a></div>
+			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Try now</a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->

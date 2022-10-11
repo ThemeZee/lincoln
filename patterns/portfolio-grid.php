@@ -6,19 +6,15 @@
 */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"}}},"backgroundColor":"white","layout":{"contentSize":"1200px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|80"},"margin":{"top":"0"}}},"backgroundColor":"white","layout":{"contentSize":"1200px","wideSize":"1200px","type":"constrained"}} -->
+<div class="wp-block-group alignfull has-white-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--80)">
 
 	<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-	<h2 class="is-style-underlined-heading"><?php _e( 'What we have done', 'lincoln' ); ?></h2>
+	<h2 class="is-style-underlined-heading">Our Applications</h2>
 	<!-- /wp:heading -->
 
-	<!-- wp:paragraph {"fontSize":"large"} -->
-	<p class="has-large-font-size">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis diss parturient.</p>
-	<!-- /wp:paragraph -->
-
-	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
-	<div class="wp-block-columns alignwide">
+	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|60"},"margin":{"top":"var:preset|spacing|70"}}}} -->
+	<div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--70)">
 
 		<!-- wp:column -->
 		<div class="wp-block-column">
@@ -30,7 +26,7 @@
 			<!-- /wp:image -->
 
 			<!-- wp:heading {"level":3} -->
-			<h3><?php _e( 'Project One', 'lincoln' ); ?></h3>
+			<h3>Tax Calculator</h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
@@ -40,7 +36,7 @@
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
 				<!-- wp:button -->
-				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'lincoln' ); ?></a></div>
+				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Try now</a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
@@ -58,7 +54,7 @@
 			<!-- /wp:image -->
 
 			<!-- wp:heading {"level":3} -->
-			<h3><?php _e( 'Project Two', 'lincoln' ); ?></h3>
+			<h3>Retirement Planner</h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
@@ -68,7 +64,7 @@
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
 				<!-- wp:button -->
-				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'lincoln' ); ?></a></div>
+				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Try now</a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
@@ -86,7 +82,7 @@
 			<!-- /wp:image -->
 
 			<!-- wp:heading {"level":3} -->
-			<h3><?php _e( 'Project Three', 'lincoln' ); ?></h3>
+			<h3>Salary Comparison Tool</h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
@@ -96,7 +92,7 @@
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
 				<!-- wp:button -->
-				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'lincoln' ); ?></a></div>
+				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Try now</a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
