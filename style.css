@@ -654,3 +654,12 @@ p.has-background {
 	content: "";
 	background-color: var(--wp--preset--color--primary);
 }
+
+.is-style-underlined-heading.has-text-align-center::before {
+	left: 50%;
+	margin-left: -0.75em;
+}
+
+.is-style-underlined-heading.has-text-align-right::before {
+	right: 0;
+}

@@ -13,4 +13,17 @@
 		content: "";
 		background-color: var(--wp--preset--color--primary);
 	}
+
+	&.has-text-align-center {
+		&::before {
+			left: 50%;
+			margin-left: -0.75em;
+		}
+	}
+
+	&.has-text-align-right {
+		&::before {
+			right: 0;
+		}
+	}
 }
