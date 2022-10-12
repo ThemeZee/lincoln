@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Services (Columns)
- * Slug: lincoln/services-columns
+ * Title: Services (Double)
+ * Slug: lincoln/services-double
  * Categories: lincoln_services
 */
 ?>
@@ -35,20 +35,6 @@
 
 			<!-- wp:heading {"level":3} -->
 			<h3>Bookkeeping</h3>
-			<!-- /wp:heading -->
-
-			<!-- wp:paragraph -->
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-			<!-- /wp:paragraph -->
-
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"backgroundColor":"white"} -->
-		<div class="wp-block-column has-white-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
-
-			<!-- wp:heading {"level":3} -->
-			<h3>Financial Planning</h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
