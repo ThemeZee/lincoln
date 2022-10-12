@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Hero Cover
+ * Title: Hero (Cover)
  * Slug: lincoln/hero-cover
  * Categories: lincoln_hero
 */

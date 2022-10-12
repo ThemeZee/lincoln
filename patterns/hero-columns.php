@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Hero Columns
+ * Title: Hero (Columns)
  * Slug: lincoln/hero-columns
  * Categories: lincoln_hero
 */

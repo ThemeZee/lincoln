@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Services Grid
+ * Title: Services (Grid)
  * Slug: lincoln/services-grid
  * Categories: lincoln_services
 */

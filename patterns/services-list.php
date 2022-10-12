@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Services List
+ * Title: Services (List)
  * Slug: lincoln/services-list
  * Categories: lincoln_services
 */

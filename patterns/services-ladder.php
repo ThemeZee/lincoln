@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Services Ladder
+ * Title: Services (Ladder)
  * Slug: lincoln/services-ladder
  * Categories: lincoln_services
 */

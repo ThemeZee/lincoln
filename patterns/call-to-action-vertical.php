@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Call to Action Vertical
+ * Title: Call to Action (Vertical)
  * Slug: lincoln/call-to-action-vertical
  * Categories: lincoln_cta
 */

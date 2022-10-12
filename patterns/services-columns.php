@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Services Columns
+ * Title: Services (Columns)
  * Slug: lincoln/services-columns
  * Categories: lincoln_services
 */
