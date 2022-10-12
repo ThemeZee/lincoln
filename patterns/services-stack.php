@@ -13,8 +13,8 @@
 	<h2 class="is-style-underlined-heading">Our Services</h2>
 	<!-- /wp:heading -->
 
-	<!-- wp:separator {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"className":"is-style-wide"} -->
-	<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"/>
+	<!-- wp:separator {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"className":"is-style-thin"} -->
+	<hr class="wp-block-separator has-alpha-channel-opacity is-style-thin" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"/>
 	<!-- /wp:separator -->
 
 	<!-- wp:columns -->
@@ -43,8 +43,8 @@
 	</div>
 	<!-- /wp:columns -->
 
-	<!-- wp:separator {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"className":"is-style-wide"} -->
-	<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"/>
+	<!-- wp:separator {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"className":"is-style-thin"} -->
+	<hr class="wp-block-separator has-alpha-channel-opacity is-style-thin" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"/>
 	<!-- /wp:separator -->
 
 	<!-- wp:columns -->
@@ -73,8 +73,8 @@
 	</div>
 	<!-- /wp:columns -->
 
-	<!-- wp:separator {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"className":"is-style-wide"} -->
-	<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"/>
+	<!-- wp:separator {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"className":"is-style-thin"} -->
+	<hr class="wp-block-separator has-alpha-channel-opacity is-style-thin" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:var(--wp--preset--spacing--60)"/>
 	<!-- /wp:separator -->
 
 	<!-- wp:columns -->
@@ -103,8 +103,8 @@
 	</div>
 	<!-- /wp:columns -->
 
-	<!-- wp:separator {"className":"is-style-wide"} -->
-	<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+	<!-- wp:separator {"className":"is-style-thin"} -->
+	<hr class="wp-block-separator has-alpha-channel-opacity is-style-thin"/>
 	<!-- /wp:separator -->
 
 </div>
