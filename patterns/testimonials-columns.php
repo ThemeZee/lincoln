@@ -1,77 +1,77 @@
 <?php
 /**
- * Title: Testimonials Columns
+ * Title: Testimonials (Columns)
  * Slug: lincoln/testimonials-columns
  * Categories: lincoln_testimonials
 */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"},"blockGap":"3rem"}},"backgroundColor":"white","layout":{"contentSize":"1200px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|80"},"margin":{"top":"0"}}},"layout":{"contentSize":"1200px","wideSize":"1200px","type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--80)">
 
 	<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-	<h2 class="is-style-underlined-heading"><?php _e( 'What clients say', 'lincoln' ); ?></h2>
+	<h2 class="is-style-underlined-heading">Testimonials from happy clients</h2>
 	<!-- /wp:heading -->
 
-	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
-	<div class="wp-block-columns alignwide">
+	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|60"},"margin":{"top":"var:preset|spacing|70"}}}} -->
+	<div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--70)">
 
-		<!-- wp:column -->
-		<div class="wp-block-column">
+		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"backgroundColor":"white"} -->
+		<div class="wp-block-column has-white-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
 
-			<!-- wp:group {"style":{"spacing":{"blockGap":"3rem"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"nowrap","verticalAlignment":"top"}} -->
-			<div class="wp-block-group">
+			<!-- wp:image {"width":128,"height":128,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
+			<figure class="wp-block-image size-full is-resized is-style-rounded">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-avatar.png" alt="" width="128" height="128"/>
+			</figure>
+			<!-- /wp:image -->
 
-				<!-- wp:paragraph {"style":{"typography":{"fontSize":"120px","lineHeight":"1"}},"textColor":"primary"} -->
-				<p class="has-primary-color has-text-color" style="font-size:120px;line-height:1">“</p>
-				<!-- /wp:paragraph -->
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"italic","fontWeight":"400"}}} -->
+			<p style="font-style:italic;font-weight:400">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+			<!-- /wp:paragraph -->
 
-				<!-- wp:group -->
-				<div class="wp-block-group">
-
-					<!-- wp:paragraph -->
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-					<!-- /wp:paragraph -->
-
-					<!-- wp:paragraph -->
-					<p>— John Doe</p>
-					<!-- /wp:paragraph -->
-
-				</div>
-				<!-- /wp:group -->
-
-			</div>
-			<!-- /wp:group -->
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"italic","fontWeight":"500"}}} -->
+			<p style="font-style:italic;font-weight:500">— John Doe</p>
+			<!-- /wp:paragraph -->
 
 		</div>
 		<!-- /wp:column -->
 
-		<!-- wp:column -->
-		<div class="wp-block-column">
+		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"backgroundColor":"white"} -->
+		<div class="wp-block-column has-white-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
 
-			<!-- wp:group {"style":{"spacing":{"blockGap":"3rem"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"nowrap","verticalAlignment":"top"}} -->
-			<div class="wp-block-group">
+			<!-- wp:image {"width":128,"height":128,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
+			<figure class="wp-block-image size-full is-resized is-style-rounded">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-avatar.png" alt="" width="128" height="128"/>
+			</figure>
+			<!-- /wp:image -->
 
-				<!-- wp:paragraph {"style":{"typography":{"fontSize":"120px","lineHeight":"1"}},"textColor":"primary"} -->
-				<p class="has-primary-color has-text-color" style="font-size:120px;line-height:1">“</p>
-				<!-- /wp:paragraph -->
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"italic","fontWeight":"400"}}} -->
+			<p style="font-style:italic;font-weight:400">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+			<!-- /wp:paragraph -->
 
-				<!-- wp:group -->
-				<div class="wp-block-group">
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"italic","fontWeight":"500"}}} -->
+			<p style="font-style:italic;font-weight:500">— Thomas A. Anderson</p>
+			<!-- /wp:paragraph -->
 
-					<!-- wp:paragraph -->
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
-					<!-- /wp:paragraph -->
+		</div>
+		<!-- /wp:column -->
 
-					<!-- wp:paragraph -->
-					<p>— John Doe</p>
-					<!-- /wp:paragraph -->
+		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"backgroundColor":"white"} -->
+		<div class="wp-block-column has-white-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
 
-				</div>
-				<!-- /wp:group -->
+			<!-- wp:image {"width":128,"height":128,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
+			<figure class="wp-block-image size-full is-resized is-style-rounded">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-avatar.png" alt="" width="128" height="128"/>
+			</figure>
+			<!-- /wp:image -->
 
-			</div>
-			<!-- /wp:group -->
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"italic","fontWeight":"400"}}} -->
+			<p style="font-style:italic;font-weight:400">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+			<!-- /wp:paragraph -->
+
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"italic","fontWeight":"500"}}} -->
+			<p style="font-style:italic;font-weight:500">— Sarah Connor</p>
+			<!-- /wp:paragraph -->
 
 		</div>
 		<!-- /wp:column -->
