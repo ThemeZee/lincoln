@@ -168,7 +168,10 @@
 				},
 				{
 					"size": "20px",
-					"fluid": false,
+					"fluid": {
+						"min": "1.125rem",
+						"max": "1.25rem"
+					},
 					"slug": "medium",
 					"name": "Medium"
 				},
