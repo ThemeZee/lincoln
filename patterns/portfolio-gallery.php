@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Portfolio Gallery
+ * Title: Portfolio (Gallery)
  * Slug: lincoln/portfolio-gallery
  * Categories: lincoln_portfolio
 */
