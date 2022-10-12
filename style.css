@@ -148,7 +148,7 @@ textarea {
 hr {
 	border: none;
 	background-color: currentColor;
-	height: 2px;
+	height: 3px;
 	opacity: 0.15;
 }
 
@@ -367,7 +367,7 @@ p.has-background {
 	margin-right: auto;
 	border: none;
 	background-color: currentColor;
-	height: 2px;
+	height: 3px;
 	opacity: 1;
 }
 
@@ -377,7 +377,7 @@ p.has-background {
 
 .wp-block-separator:not(.is-style-wide):not(.is-style-thin):not(.is-style-dots) {
 	width: 80px;
-	height: 4px;
+	height: 3px;
 }
 
 .wp-block-separator.is-style-dots {
@@ -655,7 +655,7 @@ p.has-background {
 	position: absolute;
 	bottom: 0;
 	width: 1.5em;
-	height: 4px;
+	height: 3px;
 	content: "";
 	background-color: var(--wp--preset--color--primary);
 }

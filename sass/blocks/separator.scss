@@ -4,7 +4,7 @@
 	margin-right: auto;
 	border: none;
 	background-color: currentColor;
-	height: 2px;
+	height: 3px;
 	opacity: 1;
 
 	&:not(.has-background) {
@@ -14,7 +14,7 @@
 	// Default style.
 	&:not(.is-style-wide):not(.is-style-thin):not(.is-style-dots) {
 		width: 80px;
-		height: 4px;
+		height: 3px;
 	}
 
 	// Dots.
