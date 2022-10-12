@@ -543,7 +543,7 @@
 			}
 		},
 		"typography": {
-			"fontSize": "17px",
+			"fontSize": "clamp( 16px, 4vw, 17px)",
 			"fontFamily": "var(--wp--preset--font-family--roboto)",
 			"lineHeight": "1.75"
 		},
