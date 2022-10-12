@@ -21,7 +21,7 @@
 
 			<!-- wp:image {"width":128,"height":128,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
 			<figure class="wp-block-image size-full is-resized is-style-rounded">
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-avatar.png" alt="" width="128" height="128"/>
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/testimonial.png" alt="" width="128" height="128"/>
 			</figure>
 			<!-- /wp:image -->
 
@@ -41,7 +41,7 @@
 
 			<!-- wp:image {"width":128,"height":128,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
 			<figure class="wp-block-image size-full is-resized is-style-rounded">
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-avatar.png" alt="" width="128" height="128"/>
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/testimonial.png" alt="" width="128" height="128"/>
 			</figure>
 			<!-- /wp:image -->
 
@@ -61,7 +61,7 @@
 
 			<!-- wp:image {"width":128,"height":128,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
 			<figure class="wp-block-image size-full is-resized is-style-rounded">
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-avatar.png" alt="" width="128" height="128"/>
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/testimonial.png" alt="" width="128" height="128"/>
 			</figure>
 			<!-- /wp:image -->
 

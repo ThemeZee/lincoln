@@ -1,43 +1,39 @@
 <?php
 /**
- * Title: Team Grid
+ * Title: Team (Grid)
  * Slug: lincoln/team-grid
  * Categories: lincoln_team
 */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"}}},"backgroundColor":"white","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|80"},"margin":{"top":"0"}}},"layout":{"contentSize":"1200px","wideSize":"1200px","type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--80)">
 
-	<!-- wp:columns {"align":"wide"} -->
-	<div class="wp-block-columns alignwide">
+	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|80","left":"var:preset|spacing|80"}}}} -->
+	<div class="wp-block-columns">
 
 		<!-- wp:column {"width":"40%"} -->
 		<div class="wp-block-column" style="flex-basis:40%">
 
 			<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-			<h2 class="is-style-underlined-heading"><?php _e( 'Our Team', 'lincoln' ); ?></h2>
+			<h2 class="is-style-underlined-heading">Our Team</h2>
 			<!-- /wp:heading -->
-
-			<!-- wp:paragraph -->
-			<p><?php _e( 'Meet our professionals and experts.', 'lincoln' ); ?></p>
-			<!-- /wp:paragraph -->
 
 		</div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"width":"60%"} -->
+		<!-- wp:column {"width":"60%","style":{"spacing":{"blockGap":"var:preset|spacing|60"}}} -->
 		<div class="wp-block-column" style="flex-basis:60%">
 
-			<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
-			<div class="wp-block-columns alignwide">
+			<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|60"}}}} -->
+			<div class="wp-block-columns">
 
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
 					<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 					<figure class="wp-block-image size-full is-style-default">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/team-member.png" alt="">
 					</figure>
 					<!-- /wp:image -->
 
@@ -45,6 +41,16 @@
 					<p><strong>John Doe</strong><br>Founder &amp; CEO</p>
 					<!-- /wp:paragraph -->
 
+					<!-- wp:social-links {"size":"has-normal-icon-size","style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"className":"is-style-primary-hover"} -->
+					<ul class="wp-block-social-links has-normal-icon-size is-style-primary-hover" style="margin-top:var(--wp--preset--spacing--20)">
+
+						<!-- wp:social-link {"url":"mailto://example@email.com","service":"mail"} /-->
+						<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
+						<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
+
+					</ul>
+					<!-- /wp:social-links -->
+
 				</div>
 				<!-- /wp:column -->
 
@@ -53,13 +59,23 @@
 
 					<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 					<figure class="wp-block-image size-full is-style-default">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/team-member.png" alt="">
 					</figure>
 					<!-- /wp:image -->
 
 					<!-- wp:paragraph -->
-					<p><strong>Jane Smith</strong><br>Web Developer</p>
+					<p><strong>Jane Smith</strong><br>Tax Consultant</p>
 					<!-- /wp:paragraph -->
+
+					<!-- wp:social-links {"size":"has-normal-icon-size","style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"className":"is-style-primary-hover"} -->
+					<ul class="wp-block-social-links has-normal-icon-size is-style-primary-hover" style="margin-top:var(--wp--preset--spacing--20)">
+
+						<!-- wp:social-link {"url":"mailto://example@email.com","service":"mail"} /-->
+						<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
+						<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
+
+					</ul>
+					<!-- /wp:social-links -->
 
 				</div>
 				<!-- /wp:column -->
@@ -67,21 +83,31 @@
 			</div>
 			<!-- /wp:columns -->
 
-			<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
-			<div class="wp-block-columns alignwide">
+			<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|60"}}}} -->
+			<div class="wp-block-columns">
 
 				<!-- wp:column -->
 				<div class="wp-block-column">
 
 					<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 					<figure class="wp-block-image size-full is-style-default">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/team-member.png" alt="">
 					</figure>
 					<!-- /wp:image -->
 
 					<!-- wp:paragraph -->
-					<p><strong>Mark Miller</strong><br>Online Marketing</p>
+					<p><strong>Mark Miller</strong><br>Accountant</p>
 					<!-- /wp:paragraph -->
+
+					<!-- wp:social-links {"size":"has-normal-icon-size","style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"className":"is-style-primary-hover"} -->
+					<ul class="wp-block-social-links has-normal-icon-size is-style-primary-hover" style="margin-top:var(--wp--preset--spacing--20)">
+
+						<!-- wp:social-link {"url":"mailto://example@email.com","service":"mail"} /-->
+						<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
+						<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
+
+					</ul>
+					<!-- /wp:social-links -->
 
 				</div>
 				<!-- /wp:column -->
@@ -91,13 +117,23 @@
 
 					<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
 					<figure class="wp-block-image size-full is-style-default">
-						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/default-image.png" alt="">
+						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/team-member.png" alt="">
 					</figure>
 					<!-- /wp:image -->
 
 					<!-- wp:paragraph -->
-					<p><strong>Jill Baker</strong><br>Finance</p>
+					<p><strong>Jill Baker</strong><br>Financial Planner</p>
 					<!-- /wp:paragraph -->
+
+					<!-- wp:social-links {"size":"has-normal-icon-size","style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"className":"is-style-primary-hover"} -->
+					<ul class="wp-block-social-links has-normal-icon-size is-style-primary-hover" style="margin-top:var(--wp--preset--spacing--20)">
+
+						<!-- wp:social-link {"url":"mailto://example@email.com","service":"mail"} /-->
+						<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
+						<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
+
+					</ul>
+					<!-- /wp:social-links -->
 
 				</div>
 				<!-- /wp:column -->
