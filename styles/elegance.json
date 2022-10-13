@@ -1,56 +1,70 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
-	"title": "Nature",
+	"title": "Elegance",
 	"settings": {
 		"color": {
 			"palette": [
 				{
 					"slug": "primary",
-					"color": "#157f31",
+					"color": "#c33181",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#016b1d",
+					"color": "#af1d6d",
 					"name": "Secondary"
 				},
 				{
 					"slug": "tertiary",
-					"color": "#005608",
+					"color": "#9a0858",
 					"name": "Tertiary"
 				},
 				{
 					"slug": "light-gray",
-					"color": "#f0f9f0",
+					"color": "#f0f0f0",
 					"name": "Light Gray"
 				},
 				{
 					"slug": "medium-gray",
-					"color": "#d1e1d1",
+					"color": "#d1d1d1",
 					"name": "Medium Gray"
 				},
 				{
 					"slug": "gray",
-					"color": "#788778",
+					"color": "#767676",
 					"name": "Gray"
 				},
 				{
 					"slug": "dark-gray",
-					"color": "#374837",
+					"color": "#383838",
 					"name": "Dark Gray"
 				},
 				{
 					"slug": "darker-gray",
-					"color": "#2b3b2b",
+					"color": "#2b2b2b",
 					"name": "Darker Gray"
 				}
 			]
 		}
 	},
 	"styles": {
+		"blocks": {
+			"core/site-title": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			}
+		},
 		"color": {
-			"background": "#f0f9f0"
+			"background": "#f0f0f0"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			}
 		}
 	}
 }

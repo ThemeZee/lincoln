@@ -1,48 +1,48 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
-	"title": "Nature",
+	"title": "Fire",
 	"settings": {
 		"color": {
 			"palette": [
 				{
 					"slug": "primary",
-					"color": "#157f31",
+					"color": "#d40808",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#016b1d",
+					"color": "#c00000",
 					"name": "Secondary"
 				},
 				{
 					"slug": "tertiary",
-					"color": "#005608",
+					"color": "#ab0000",
 					"name": "Tertiary"
 				},
 				{
 					"slug": "light-gray",
-					"color": "#f0f9f0",
+					"color": "#f9f0f0",
 					"name": "Light Gray"
 				},
 				{
 					"slug": "medium-gray",
-					"color": "#d1e1d1",
+					"color": "#e1d1d1",
 					"name": "Medium Gray"
 				},
 				{
 					"slug": "gray",
-					"color": "#788778",
+					"color": "#877878",
 					"name": "Gray"
 				},
 				{
 					"slug": "dark-gray",
-					"color": "#374837",
+					"color": "#483737",
 					"name": "Dark Gray"
 				},
 				{
 					"slug": "darker-gray",
-					"color": "#2b3b2b",
+					"color": "#3b2b2b",
 					"name": "Darker Gray"
 				}
 			]
@@ -50,7 +50,7 @@
 	},
 	"styles": {
 		"color": {
-			"background": "#f0f9f0"
+			"background": "#f9f0f0"
 		}
 	}
 }
