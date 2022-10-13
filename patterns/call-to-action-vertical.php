@@ -10,7 +10,7 @@
 <div class="wp-block-group alignfull has-white-color has-dark-gray-background-color has-text-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--80)">
 
 	<!-- wp:heading {"textAlign":"center"} -->
-	<h2 class="has-text-align-center">Call to Action</h2>
+	<h2 class="has-text-align-center">Get in touch</h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"align":"center"} -->
