@@ -14,8 +14,8 @@
 		<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/hero-image.png" alt=""/></figure>
 		<div class="wp-block-media-text__content">
 
-			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary"} -->
-			<p class="has-primary-color has-text-color" style="font-style:normal;font-weight:500">For Companies</p>
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"medium-gray"} -->
+			<p class="has-medium-gray-color has-text-color" style="font-style:normal;font-weight:500">For Companies</p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"className":"is-style-underlined-heading"} -->

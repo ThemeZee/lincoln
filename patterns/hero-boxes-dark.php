@@ -15,8 +15,8 @@
 		<!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%">
 
-			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary"} -->
-			<p class="has-primary-color has-text-color" style="font-style:normal;font-weight:500">Welcome to Lincoln</p>
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"medium-gray"} -->
+			<p class="has-medium-gray-color has-text-color" style="font-style:normal;font-weight:500">Welcome to Lincoln</p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"className":"is-style-underlined-heading"} -->

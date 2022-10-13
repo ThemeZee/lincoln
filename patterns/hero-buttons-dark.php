@@ -15,8 +15,8 @@
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
 
-			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary"} -->
-			<p class="has-primary-color has-text-color" style="font-style:normal;font-weight:500">Welcome to Lincoln</p>
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"medium-gray"} -->
+			<p class="has-medium-gray-color has-text-color" style="font-style:normal;font-weight:500">Welcome to Lincoln</p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"className":"is-style-underlined-heading"} -->
@@ -34,8 +34,8 @@
 				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Our Services</a></div>
 				<!-- /wp:button -->
 
-				<!-- wp:button {"textColor":"primary","className":"is-style-outline"} -->
-				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button">About us</a></div>
+				<!-- wp:button {"className":"is-style-outline"} -->
+				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button">About us</a></div>
 				<!-- /wp:button -->
 
 			</div>
