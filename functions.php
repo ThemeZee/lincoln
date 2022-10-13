@@ -69,13 +69,13 @@ add_filter( 'excerpt_length', 'lincoln_excerpt_length' );
 function lincoln_register_block_pattern_categories() {
 	$block_pattern_categories = array(
 		'lincoln_hero'         => array( 'label' => __( 'Lincoln: Hero', 'lincoln' ) ),
+		'lincoln_heading'      => array( 'label' => __( 'Lincoln: Heading', 'lincoln' ) ),
 		'lincoln_cta'          => array( 'label' => __( 'Lincoln: Call to Action', 'lincoln' ) ),
 		'lincoln_features'     => array( 'label' => __( 'Lincoln: Features', 'lincoln' ) ),
 		'lincoln_portfolio'    => array( 'label' => __( 'Lincoln: Portfolio', 'lincoln' ) ),
 		'lincoln_services'     => array( 'label' => __( 'Lincoln: Services', 'lincoln' ) ),
 		'lincoln_testimonials' => array( 'label' => __( 'Lincoln: Testimonials', 'lincoln' ) ),
 		'lincoln_team'         => array( 'label' => __( 'Lincoln: Team', 'lincoln' ) ),
-		'lincoln_page_layouts' => array( 'label' => __( 'Lincoln: Full Page Layouts', 'lincoln' ) ),
 		'lincoln_blog'         => array( 'label' => __( 'Lincoln: Blog Posts', 'lincoln' ) ),
 	);
 
