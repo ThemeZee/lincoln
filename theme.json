@@ -225,34 +225,34 @@
 					"size": "0.5rem"
 				},
 				{
-				  "name": "X-Small",
-				  "slug": 30,
-				  "size": "clamp(0.5rem, 4vw, 0.75rem)"
+					"name": "X-Small",
+					"slug": 30,
+					"size": "clamp(0.5rem, 4vw, 0.75rem)"
 				},
 				{
-				  "name": "Small",
-				  "slug": 40,
-				  "size": "clamp(0.5rem, 4vw, 1rem)"
+					"name": "Small",
+					"slug": 40,
+					"size": "clamp(0.5rem, 4vw, 1rem)"
 				},
 				{
-				  "name": "Medium",
-				  "slug": 50,
-				  "size": "clamp(0.75rem, 4vw, 1.5rem)"
+					"name": "Medium",
+					"slug": 50,
+					"size": "clamp(0.75rem, 4vw, 1.5rem)"
 				},
 				{
-				  "name": "Large",
-				  "slug": 60,
-				  "size": "clamp(0.75rem, 4vw, 2rem)"
+					"name": "Large",
+					"slug": 60,
+					"size": "clamp(0.75rem, 4vw, 2rem)"
 				},
 				{
-				  "name": "X-Large",
-				  "slug": 70,
-				  "size": "clamp(1rem, 4vw, 3rem)"
+					"name": "X-Large",
+					"slug": 70,
+					"size": "clamp(1rem, 4vw, 3rem)"
 				},
 				{
-				  "name": "XX-Large",
-				  "slug": 80,
-				  "size": "clamp(1.25rem, 4vw, 4.5rem)"
+					"name": "XX-Large",
+					"slug": 80,
+					"size": "clamp(1.25rem, 4vw, 4.5rem)"
 				}
 			]
 		}
@@ -261,7 +261,7 @@
 		"blocks": {
 			"core/archives": {
 				"elements": {
-                    "link": {
+					"link": {
 						"typography": {
 							"textDecoration": "none"
 						},
@@ -285,7 +285,7 @@
 			},
 			"core/categories": {
 				"elements": {
-                    "link": {
+					"link": {
 						"typography": {
 							"textDecoration": "none"
 						},
@@ -297,14 +297,23 @@
 					}
 				}
 			},
-			"core/post-content": {
-				"typography": {
-					"fontSize": "clamp(16px, calc(1rem + 0.16vw), 18px)"
+			"core/latest-posts": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
 				}
 			},
 			"core/navigation": {
 				"elements": {
-                    "link": {
+					"link": {
 						"color": {
 							"text": "inherit"
 						},
@@ -322,12 +331,17 @@
 					}
 				}
 			},
+			"core/post-content": {
+				"typography": {
+					"fontSize": "clamp(16px, calc(1rem + 0.16vw), 18px)"
+				}
+			},
 			"core/post-excerpt": {
 				"typography": {
 					"fontSize": "clamp(16px, calc(1rem + 0.16vw), 18px)"
 				},
 				"elements": {
-                    "link": {
+					"link": {
 						"spacing": {
 							"padding": {
 								"top": "calc(0.4rem + 3px)",
@@ -356,7 +370,7 @@
 			},
 			"core/post-title": {
 				"elements": {
-                    "link": {
+					"link": {
 						"color": {
 							"text": "#202020"
 						},
@@ -377,7 +391,7 @@
 					"fontWeight": "500"
 				},
 				"elements": {
-                    "link": {
+					"link": {
 						"spacing": {
 							"padding": {
 								"top": "0.4rem",
@@ -417,7 +431,7 @@
 					"fontWeight": "bold"
 				},
 				"elements": {
-                    "link": {
+					"link": {
 						"color": {
 							"text": "#202020"
 						},
@@ -439,7 +453,7 @@
 			},
 			"core/tag-cloud": {
 				"elements": {
-                    "link": {
+					"link": {
 						"typography": {
 							"textDecoration": "none"
 						},
