@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Hero (Buttons)
- * Slug: lincoln/hero-buttons
+ * Title: Hero (Image Left)
+ * Slug: lincoln/hero-image-left
  * Categories: lincoln_hero
 */
 ?>
@@ -15,31 +15,11 @@
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
 
-			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary"} -->
-			<p class="has-primary-color has-text-color" style="font-style:normal;font-weight:500">Welcome to Lincoln</p>
-			<!-- /wp:paragraph -->
-
-			<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"className":"is-style-underlined-heading"} -->
-			<h1 class="is-style-underlined-heading" style="margin-top:var(--wp--preset--spacing--20)">Accounting Services</h1>
-			<!-- /wp:heading -->
-
-			<!-- wp:paragraph {"fontSize":"medium"} -->
-			<p class="has-medium-font-size">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis diss parturient.</p>
-			<!-- /wp:paragraph -->
-
-			<!-- wp:buttons -->
-			<div class="wp-block-buttons">
-
-				<!-- wp:button -->
-				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Our Services</a></div>
-				<!-- /wp:button -->
-
-				<!-- wp:button {"textColor":"primary","className":"is-style-outline"} -->
-				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-primary-color has-text-color wp-element-button">About us</a></div>
-				<!-- /wp:button -->
-
-			</div>
-			<!-- /wp:buttons -->
+			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+			<figure class="wp-block-image size-full is-style-default">
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/hero-image.png" alt="">
+			</figure>
+			<!-- /wp:image -->
 
 		</div>
 		<!-- /wp:column -->
@@ -47,11 +27,17 @@
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
 
-			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full is-style-default">
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/hero-image.png" alt="">
-			</figure>
-			<!-- /wp:image -->
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary"} -->
+			<p class="has-primary-color has-text-color" style="font-style:normal;font-weight:500">For Companies</p>
+			<!-- /wp:paragraph -->
+
+			<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"className":"is-style-underlined-heading"} -->
+			<h1 class="is-style-underlined-heading" style="margin-top:var(--wp--preset--spacing--20)">Accounting and<br>Tax Optimization</h1>
+			<!-- /wp:heading -->
+
+			<!-- wp:paragraph {"fontSize":"medium"} -->
+			<p class="has-medium-font-size">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis diss parturient.</p>
+			<!-- /wp:paragraph -->
 
 		</div>
 		<!-- /wp:column -->

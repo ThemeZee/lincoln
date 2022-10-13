@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Hero (Subtitle)
- * Slug: lincoln/hero-subtitle
+ * Title: Hero (Image Right)
+ * Slug: lincoln/hero-image-right
  * Categories: lincoln_hero
 */
 ?>
@@ -16,11 +16,11 @@
 		<div class="wp-block-column is-vertically-aligned-center">
 
 			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"primary"} -->
-			<p class="has-primary-color has-text-color" style="font-style:normal;font-weight:500">Welcome to Lincoln</p>
+			<p class="has-primary-color has-text-color" style="font-style:normal;font-weight:500">For Individuals</p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"className":"is-style-underlined-heading"} -->
-			<h1 class="is-style-underlined-heading" style="margin-top:var(--wp--preset--spacing--20)">Accounting services<br>for your company</h1>
+			<h1 class="is-style-underlined-heading" style="margin-top:var(--wp--preset--spacing--20)">Tax Advice and<br>Financial Planning</h1>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->

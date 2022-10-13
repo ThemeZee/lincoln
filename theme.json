@@ -299,7 +299,7 @@
 			},
 			"core/post-content": {
 				"typography": {
-					"fontSize": "clamp(16px, calc(1rem + 0.16vw), 19px)"
+					"fontSize": "clamp(16px, calc(1rem + 0.16vw), 18px)"
 				}
 			},
 			"core/navigation": {
@@ -324,7 +324,7 @@
 			},
 			"core/post-excerpt": {
 				"typography": {
-					"fontSize": "clamp(16px, calc(1rem + 0.16vw), 19px)"
+					"fontSize": "clamp(16px, calc(1rem + 0.16vw), 18px)"
 				},
 				"elements": {
                     "link": {
