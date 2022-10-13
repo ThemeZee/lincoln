@@ -1,48 +1,48 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
-	"title": "Elegance",
+	"title": "Buttercup",
 	"settings": {
 		"color": {
 			"palette": [
 				{
 					"slug": "primary",
-					"color": "#c33181",
+					"color": "#a56119",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#af1d6d",
+					"color": "#914d05",
 					"name": "Secondary"
 				},
 				{
 					"slug": "tertiary",
-					"color": "#9a0858",
+					"color": "#7c3800",
 					"name": "Tertiary"
 				},
 				{
 					"slug": "light-gray",
-					"color": "#f0f0f0",
+					"color": "#f8f8ec",
 					"name": "Light Gray"
 				},
 				{
 					"slug": "medium-gray",
-					"color": "#d1d1d1",
+					"color": "#e1e1d1",
 					"name": "Medium Gray"
 				},
 				{
 					"slug": "gray",
-					"color": "#767676",
+					"color": "#878778",
 					"name": "Gray"
 				},
 				{
 					"slug": "dark-gray",
-					"color": "#383838",
+					"color": "#530f00",
 					"name": "Dark Gray"
 				},
 				{
 					"slug": "darker-gray",
-					"color": "#2b2b2b",
+					"color": "#3f0000",
 					"name": "Darker Gray"
 				}
 			]
@@ -50,7 +50,7 @@
 	},
 	"styles": {
 		"color": {
-			"background": "#f0f0f0"
+			"background": "#f8f8ec"
 		}
 	}
 }
