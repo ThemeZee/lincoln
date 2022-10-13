@@ -42,13 +42,18 @@
 			"palette": [
 				{
 					"slug": "primary",
-					"color": "#1f85eb",
+					"color": "#086ed4",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#0b71d7",
+					"color": "#005ac0",
 					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#0045ab",
+					"name": "Tertiary"
 				},
 				{
 					"slug": "light-gray",
