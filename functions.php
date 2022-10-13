@@ -72,6 +72,7 @@ function lincoln_register_block_pattern_categories() {
 		'lincoln_heading'      => array( 'label' => __( 'Lincoln: Heading', 'lincoln' ) ),
 		'lincoln_cta'          => array( 'label' => __( 'Lincoln: Call to Action', 'lincoln' ) ),
 		'lincoln_features'     => array( 'label' => __( 'Lincoln: Features', 'lincoln' ) ),
+		'lincoln_media_text'   => array( 'label' => __( 'Lincoln: Media Text', 'lincoln' ) ),
 		'lincoln_portfolio'    => array( 'label' => __( 'Lincoln: Portfolio', 'lincoln' ) ),
 		'lincoln_services'     => array( 'label' => __( 'Lincoln: Services', 'lincoln' ) ),
 		'lincoln_testimonials' => array( 'label' => __( 'Lincoln: Testimonials', 'lincoln' ) ),

@@ -289,6 +289,16 @@ h6.has-background {
 	max-width: none;
 }
 
+/* Media Text Block */
+.wp-block-media-text {
+	grid-template-columns: 1fr 1fr;
+	gap: 0 var(--wp--preset--spacing--80);
+}
+
+.wp-block-media-text .wp-block-media-text__content {
+	padding: 0;
+}
+
 /* Paragraph Block */
 p.has-background {
 	padding: 1.25rem 1.5rem;
