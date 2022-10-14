@@ -1,7 +1,7 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
-	"title": "Elegance",
+	"title": "Grapes",
 	"settings": {
 		"color": {
 			"palette": [
@@ -22,27 +22,27 @@
 				},
 				{
 					"slug": "light-gray",
-					"color": "#f0f0f0",
+					"color": "#f9f1f5",
 					"name": "Light Gray"
 				},
 				{
 					"slug": "medium-gray",
-					"color": "#d1d1d1",
+					"color": "#e1d1d9",
 					"name": "Medium Gray"
 				},
 				{
 					"slug": "gray",
-					"color": "#767676",
+					"color": "#877880",
 					"name": "Gray"
 				},
 				{
 					"slug": "dark-gray",
-					"color": "#383838",
+					"color": "#483740",
 					"name": "Dark Gray"
 				},
 				{
 					"slug": "darker-gray",
-					"color": "#2b2b2b",
+					"color": "#3b2b33",
 					"name": "Darker Gray"
 				}
 			]
