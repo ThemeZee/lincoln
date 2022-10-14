@@ -600,6 +600,11 @@
 			"area": "header"
 		},
 		{
+			"name": "header-top-bar",
+			"title": "Header (Top Bar)",
+			"area": "header"
+		},
+		{
 			"name": "footer",
 			"title": "Footer (Default)",
 			"area": "footer"
