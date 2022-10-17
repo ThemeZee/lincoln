@@ -10,9 +10,6 @@
  */
 function lincoln_setup() {
 
-	// Set default Post Thumbnail size.
-	set_post_thumbnail_size( 1530, 765 );
-
 	// Enqueue editor styles.
 	add_editor_style( 'style.css' );
 
@@ -56,7 +53,7 @@ function lincoln_excerpt_length( $length ) {
 		return $length;
 	}
 
-	return apply_filters( 'lincoln_excerpt_length', 20 );
+	return apply_filters( 'lincoln_excerpt_length', 42 );
 }
 add_filter( 'excerpt_length', 'lincoln_excerpt_length' );
 
