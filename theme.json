@@ -260,7 +260,8 @@
 					"size": "clamp(1.25rem, 4vw, 4.5rem)"
 				}
 			]
-		}
+		},
+		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
 		"blocks": {
@@ -575,7 +576,13 @@
 			"lineHeight": "1.75"
 		},
 		"spacing": {
-			"blockGap": "1.5rem"
+			"blockGap": "1.5rem",
+			"padding": {
+				"top": "0",
+				"right": "var(--wp--preset--spacing--80)",
+				"bottom": "0",
+				"left": "var(--wp--preset--spacing--80)"
+			}
 		}
 	},
 	"templateParts": [
