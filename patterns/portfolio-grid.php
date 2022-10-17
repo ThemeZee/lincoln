@@ -16,7 +16,7 @@
 		<div class="wp-block-column" style="flex-basis:40%">
 
 			<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-			<h2 class="is-style-underlined-heading">Free Tools and Apps</h2>
+			<h2 class="is-style-underlined-heading">Portfolio</h2>
 			<!-- /wp:heading -->
 
 		</div>
