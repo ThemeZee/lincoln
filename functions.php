@@ -69,7 +69,6 @@ add_filter( 'excerpt_length', 'lincoln_excerpt_length' );
 function lincoln_register_block_pattern_categories() {
 	$block_pattern_categories = array(
 		'lincoln_hero'         => array( 'label' => __( 'Lincoln: Hero', 'lincoln' ) ),
-		'lincoln_heading'      => array( 'label' => __( 'Lincoln: Heading', 'lincoln' ) ),
 		'lincoln_cta'          => array( 'label' => __( 'Lincoln: Call to Action', 'lincoln' ) ),
 		'lincoln_features'     => array( 'label' => __( 'Lincoln: Features', 'lincoln' ) ),
 		'lincoln_media_text'   => array( 'label' => __( 'Lincoln: Media Text', 'lincoln' ) ),
