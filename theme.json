@@ -2,15 +2,15 @@
 	"version": 2,
 	"customTemplates": [
 		{
-			"name": "page-blank",
-			"title": "Page (Blank)",
+			"name": "page-fullwidth",
+			"title": "Page (Fullwidth)",
 			"postTypes": [
 				"page"
 			]
 		},
 		{
-			"name": "page-fullwidth",
-			"title": "Page (Fullwidth)",
+			"name": "page-no-title",
+			"title": "Page (No Title)",
 			"postTypes": [
 				"page"
 			]
