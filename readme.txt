@@ -42,8 +42,12 @@ Lincoln bundles and uses the following third-party resources:
 License: Distributed under the terms of the APACHE LICENSE, VERSION 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
 Copyright: Christian Robertson
 
-2. Images used in screenshot.png is from StockSnap
+2. Images used in screenshot.png are from Pexels
 
-https://stocksnap.io/photo/architecture-building-RV2H4VBE3L
-License: Distributed under the terms of the CC0 License (https://creativecommons.org/publicdomain/zero/1.0/)
-Copyright: Lance Anderson (https://stocksnap.io/author/450)
+a) https://www.pexels.com/photo/low-angle-view-of-office-building-against-sky-323705/
+License: Distributed under the terms of the Pexels License (https://www.pexels.com/license/)
+Copyright: Expect Best (https://www.pexels.com/@expect-best-79873/)
+
+b) https://www.pexels.com/photo/report-paper-on-a-white-board-7876383/
+License: Distributed under the terms of the Pexels License (https://www.pexels.com/license/)
+Copyright: Karolina Grabowska (https://www.pexels.com/@karolina-grabowska/)
