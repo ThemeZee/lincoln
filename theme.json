@@ -633,13 +633,8 @@
 		},
 		{
 			"area": "uncategorized",
-			"name": "posts-grid",
-			"title": "Posts (Grid)"
-		},
-		{
-			"area": "uncategorized",
-			"name": "posts-list",
-			"title": "Posts (List)"
+			"name": "posts",
+			"title": "Posts"
 		},
 		{
 			"area": "uncategorized",
