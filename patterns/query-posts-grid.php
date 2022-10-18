@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Blog Posts (Grid)
- * Slug: lincoln/blog-posts-grid
+ * Title: Query Posts (Grid)
+ * Slug: lincoln/query-posts-grid
  * Block Types: core/query
- * Categories: lincoln_blog
+ * Inserter: no
 */
 ?>
 
