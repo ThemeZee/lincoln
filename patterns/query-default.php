@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Query Posts (Default)
- * Slug: lincoln/query-posts-default
+ * Title: Query (Default)
+ * Slug: lincoln/query-default
  * Block Types: core/query
- * Inserter: no
+ * Categories: query
 */
 ?>
 
