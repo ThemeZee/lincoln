@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*
 Theme Name: Lincoln
 Theme URI: https://wordpress.com/theme/lincoln/
@@ -124,7 +126,7 @@ input[type="search"],
 textarea {
 	padding: 0.25em 0.5em;
 	max-width: 100%;
-	border: 1px solid currentColor;
+	border: 1px solid currentcolor;
 	background: none;
 	opacity: 0.65;
 	font: inherit;
@@ -147,7 +149,7 @@ textarea {
 
 hr {
 	border: none;
-	background-color: currentColor;
+	background-color: currentcolor;
 	height: 3px;
 	opacity: 0.15;
 }
@@ -178,7 +180,7 @@ img {
 blockquote {
 	margin-left: 0;
 	margin-right: 0;
-	border-left: 0.25rem solid currentColor;
+	border-left: 0.25rem solid currentcolor;
 	padding-left: 1.5rem;
 	font-size: 1.25rem;
 }
@@ -190,7 +192,7 @@ blockquote cite {
 }
 
 blockquote cite::before {
-	content: "\2014\00a0";
+	content: "— ";
 }
 
 table {
@@ -221,7 +223,7 @@ td {
 }
 
 th {
-	font-weight: bold;
+	font-weight: 700;
 	text-align: initial;
 }
 
@@ -262,7 +264,9 @@ th {
 	padding: 0.4rem 1rem;
 }
 
-.wp-block-button.is-style-outline > a.wp-block-button__link.has-primary-color:hover, .wp-block-button.is-style-outline > a.wp-block-button__link.has-primary-color:active, .wp-block-button.is-style-outline > a.wp-block-button__link.has-primary-color:focus,
+.wp-block-button.is-style-outline > a.wp-block-button__link.has-primary-color:hover,
+.wp-block-button.is-style-outline > a.wp-block-button__link.has-primary-color:active,
+.wp-block-button.is-style-outline > a.wp-block-button__link.has-primary-color:focus,
 .wp-block-button a.wp-block-button__link.is-style-outline.has-primary-color:hover,
 .wp-block-button a.wp-block-button__link.is-style-outline.has-primary-color:active,
 .wp-block-button a.wp-block-button__link.is-style-outline.has-primary-color:focus {
@@ -313,23 +317,23 @@ p.has-background {
 
 @media (min-width: 600px) {
 	ul.wp-block-post-template.is-flex-container.is-flex-container.columns-2 > li {
-		width: calc(50% - ( var(--wp--preset--spacing--70) / 2 ));
+		width: calc(50% - var(--wp--preset--spacing--70) / 2);
 	}
 
 	ul.wp-block-post-template.is-flex-container.is-flex-container.columns-3 > li {
-		width: calc(33.33333% - ( var(--wp--preset--spacing--70) / 1.5 ));
+		width: calc(33.33333% - var(--wp--preset--spacing--70) / 1.5);
 	}
 
 	ul.wp-block-post-template.is-flex-container.is-flex-container.columns-4 > li {
-		width: calc(25% - ( var(--wp--preset--spacing--70) / 1.33333 ));
+		width: calc(25% - var(--wp--preset--spacing--70) / 1.33333);
 	}
 }
 
 /* Pullquote Block */
 .wp-block-pullquote {
-	border-top: 0.25rem solid currentColor;
-	border-bottom: 0.25rem solid currentColor;
-	color: currentColor;
+	border-top: 0.25rem solid currentcolor;
+	border-bottom: 0.25rem solid currentcolor;
+	color: currentcolor;
 	padding: 1.5rem 0;
 }
 
@@ -355,7 +359,7 @@ p.has-background {
 /* Quote Block */
 .wp-block-quote.has-text-align-right {
 	border-left: none;
-	border-right: 0.25rem solid currentColor;
+	border-right: 0.25rem solid currentcolor;
 	padding-left: 0;
 	padding-right: 1.5rem;
 }
@@ -386,7 +390,7 @@ hr.wp-block-separator {
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
-	background-color: currentColor;
+	background-color: currentcolor;
 	height: 3px;
 	opacity: 1;
 }
@@ -405,7 +409,7 @@ hr.wp-block-separator.is-style-dots {
 	opacity: 1;
 }
 
-hr.wp-block-separator.is-style-dots:before {
+hr.wp-block-separator.is-style-dots::before {
 	letter-spacing: 1em;
 	padding-left: 1em;
 }
@@ -423,13 +427,18 @@ hr.wp-block-separator.is-style-thin {
 	text-decoration: none;
 }
 
-.flip-link-hover a:hover, .flip-link-hover a:focus, .flip-link-hover a:active {
+.flip-link-hover a:hover,
+.flip-link-hover a:focus,
+.flip-link-hover a:active {
 	text-decoration: underline;
 }
 
 /* Footer Navigation */
 .is-style-footer-navigation {
-	font-size: 17px; /* Desktop Menu */
+	font-size: 17px;
+
+	/* Desktop Menu */
+
 	/* Mobile Menu */
 }
 
@@ -441,7 +450,9 @@ hr.wp-block-separator.is-style-thin {
 	padding: 0.5rem;
 }
 
-.is-style-footer-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content:hover, .is-style-footer-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content:focus, .is-style-footer-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content:active {
+.is-style-footer-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content:hover,
+.is-style-footer-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content:focus,
+.is-style-footer-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content:active {
 	text-decoration: none;
 }
 
@@ -553,7 +564,9 @@ hr.wp-block-separator.is-style-thin {
 	padding-right: 0.5rem;
 }
 
-.is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content:hover, .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content:focus, .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content:active {
+.is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content:hover,
+.is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content:focus,
+.is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) ul.wp-block-navigation__container > li.wp-block-navigation-item > a.wp-block-navigation-item__content:active {
 	text-decoration: none;
 }
 
@@ -661,7 +674,7 @@ hr.wp-block-separator.is-style-thin {
 .is-style-main-navigation .wp-block-navigation__responsive-container-open svg {
 	width: 30px;
 	height: 30px;
-	color: currentColor;
+	color: currentcolor;
 }
 
 /* Primary Hover */
