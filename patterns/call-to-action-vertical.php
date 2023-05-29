@@ -3,7 +3,10 @@
  * Title: Call to Action (Vertical)
  * Slug: lincoln/call-to-action-vertical
  * Categories: lincoln_cta
-*/
+ *
+ * @package Lincoln
+ */
+
 ?>
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|80"},"margin":{"top":"0"}}},"layout":{"contentSize":"800px","wideSize":"1200px","type":"constrained"}} -->

@@ -98,39 +98,54 @@ add_action( 'init', 'lincoln_register_block_pattern_categories', 9 );
 function lincoln_register_block_styles() {
 
 	// Register Main Navigation block style.
-	register_block_style( 'core/navigation', array(
-		'name'         => 'main-navigation',
-		'label'        => esc_html__( 'Main Navigation', 'lincoln' ),
-		'style_handle' => 'lincoln-stylesheet',
-	) );
+	register_block_style(
+		'core/navigation',
+		array(
+			'name'         => 'main-navigation',
+			'label'        => esc_html__( 'Main Navigation', 'lincoln' ),
+			'style_handle' => 'lincoln-stylesheet',
+		)
+	);
 
 	// Register Footer Navigation block style.
-	register_block_style( 'core/navigation', array(
-		'name'         => 'footer-navigation',
-		'label'        => esc_html__( 'Footer Navigation', 'lincoln' ),
-		'style_handle' => 'lincoln-stylesheet',
-	) );
+	register_block_style(
+		'core/navigation',
+		array(
+			'name'         => 'footer-navigation',
+			'label'        => esc_html__( 'Footer Navigation', 'lincoln' ),
+			'style_handle' => 'lincoln-stylesheet',
+		)
+	);
 
 	// Register Inherit Colors block style.
-	register_block_style( 'core/social-links', array(
-		'name'         => 'inherit-colors',
-		'label'        => esc_html__( 'Inherit Colors', 'lincoln' ),
-		'style_handle' => 'lincoln-stylesheet',
-	) );
+	register_block_style(
+		'core/social-links',
+		array(
+			'name'         => 'inherit-colors',
+			'label'        => esc_html__( 'Inherit Colors', 'lincoln' ),
+			'style_handle' => 'lincoln-stylesheet',
+		)
+	);
 
 	// Register Primary Hover block style.
-	register_block_style( 'core/social-links', array(
-		'name'         => 'primary-hover',
-		'label'        => esc_html__( 'Primary Hover', 'lincoln' ),
-		'style_handle' => 'lincoln-stylesheet',
-	) );
+	register_block_style(
+		'core/social-links',
+		array(
+			'name'         => 'primary-hover',
+			'label'        => esc_html__( 'Primary Hover', 'lincoln' ),
+			'style_handle' => 'lincoln-stylesheet',
+		)
+	);
 
 	// Register Thin Line block style.
-	register_block_style( 'core/separator', array(
-		'name'         => 'thin',
-		'label'        => esc_html__( 'Thin Line', 'lincoln' ),
-		'style_handle' => 'lincoln-stylesheet',
-	) );
+	register_block_style(
+		'core/separator',
+		array(
+			'name'         => 'thin',
+			'label'        => esc_html__( 'Thin Line', 'lincoln' ),
+			'style_handle' => 'lincoln-stylesheet',
+		)
+	);
 
 	// Register Underlined Heading block style.
 	$underlined_heading_style = array(

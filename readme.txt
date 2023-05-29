@@ -16,6 +16,9 @@ Lincoln is a clean and lightweight business theme using modern colors and typogr
 
 == Changelog ==
 
+= 1.1 - 2023-05-29 =
+* fix PHPCS issues
+
 = 1.0 - 2022-10-17 =
 * Initial Release
 
