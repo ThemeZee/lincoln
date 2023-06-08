@@ -4,7 +4,7 @@ Theme URI: https://wordpress.com/theme/lincoln/
 Contributors: themezee
 Tags: full-site-editing, template-editing, one-column, blog, news, custom-background, custom-logo, custom-header, custom-menu, grid-layout, entertainment, editor-style, block-styles, block-patterns, rtl-language-support, featured-images, flexible-header, custom-colors, full-width-template, sticky-post, threaded-comments, translation-ready, theme-options, two-columns, three-columns
 Requires at least: 6.0
-Tested up to: 6.1
+Tested up to: 6.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,7 +16,8 @@ Lincoln is a clean and lightweight business theme using modern colors and typogr
 
 == Changelog ==
 
-= 1.1 - 2023-05-29 =
+= 1.1 - 2023-06-08 =
+* add Demo Content Import feature
 * fix PHPCS issues
 
 = 1.0 - 2022-10-17 =
