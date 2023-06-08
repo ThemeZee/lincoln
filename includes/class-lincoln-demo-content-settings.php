@@ -74,6 +74,8 @@ class Lincoln_Demo_Content_Settings {
 	 * Demo Content Callback
 	 *
 	 * @param array $args Arguments passed by the setting.
+	 *
+	 * phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
 	 */
 	public static function render_demo_content_setting( $args ) {
 		$options      = self::get_settings();
@@ -93,7 +95,7 @@ class Lincoln_Demo_Content_Settings {
 
 		$html .= '<br/><input type="submit" class="button" name="lincoln_import_demo_content" value="' . esc_attr__( 'Import Content', 'lincoln' ) . '"/>';
 
-		echo $html; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+		echo $html;
 		wp_nonce_field( 'lincoln_demo_content_nonce', 'lincoln_demo_content_nonce' );
 	}
 

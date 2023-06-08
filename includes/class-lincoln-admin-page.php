@@ -47,6 +47,8 @@ class Lincoln_Admin_Page {
 
 	/**
 	 * Display settings page
+	 *
+	 * phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
 	 */
 	public static function render_settings_page() {
 		ob_start();
@@ -67,7 +69,7 @@ class Lincoln_Admin_Page {
 		</div>
 
 		<?php
-		echo ob_get_clean(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+		echo ob_get_clean();
 	}
 
 	/**
