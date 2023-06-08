@@ -14,15 +14,6 @@ Lincoln is a clean and lightweight business theme using modern colors and typogr
 
 Lincoln is a clean and lightweight business theme using modern colors and typography. The theme supports a huge range of block patterns, which allow you to build your static pages with just a few clicks. It also comes with multiple header and footer block template parts.
 
-== Changelog ==
-
-= 1.1 - 2023-06-08 =
-* add Demo Content Import feature
-* fix PHPCS issues
-
-= 1.0 - 2022-10-17 =
-* Initial Release
-
 == Copyright ==
 
 Lincoln WordPress Theme, Copyright 2022 ThemeZee.com
