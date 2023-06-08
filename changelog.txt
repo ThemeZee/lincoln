@@ -1,5 +1,8 @@
 *** Lincoln Changelog ***
 
+2023-06-08 - version 1.1.1
+* fix PHPCS issues
+
 2023-06-08 - version 1.1
 * add Demo Content Import feature
 * fix PHPCS issues
