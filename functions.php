@@ -159,3 +159,10 @@ function lincoln_register_block_styles() {
 	register_block_style( 'core/query-title', $underlined_heading_style );
 }
 add_action( 'init', 'lincoln_register_block_styles', 9 );
+
+
+/**
+ * Include Theme Setup settings.
+ */
+require_once get_parent_theme_file_path( '/includes/class-lincoln-admin-page.php' );
+require_once get_parent_theme_file_path( '/includes/class-lincoln-demo-content-settings.php' );
